@@ -49,9 +49,10 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="랭킹 카드 전체 파이프라인")
     parser.add_argument("--date",          default=None,           help="날짜 YYYYMMDD (기본값: 오늘)")
     parser.add_argument("--account",       default="RANKING_NAM",  help="인스타그램 계정명")
-    parser.add_argument("--skip-crawl",    action="store_true",    help="크롤링 건너뜀")
-    parser.add_argument("--skip-report",   action="store_true",    help="엑셀 리포트 건너뜀")
-    parser.add_argument("--skip-generate", action="store_true",    help="카드 생성 건너뜀")
+    parser.add_argument("--skip-crawl",        action="store_true", help="크롤링 건너뜀")
+    parser.add_argument("--skip-report",       action="store_true", help="엑셀 리포트 건너뜀")
+    parser.add_argument("--skip-crawl-report", action="store_true", help="크롤링 + 리포트 건너뜀 (카드 생성만)")
+    parser.add_argument("--skip-generate",     action="store_true", help="카드 생성 건너뜀")
     return parser.parse_args()
 
 
@@ -59,6 +60,11 @@ def main() -> None:
     args  = parse_args()
     today = args.date or datetime.today().strftime("%Y%m%d")
     today1 = datetime.strptime(today, "%Y%m%d").strftime("%Y년 %m월 %d일")
+
+    # --skip-crawl-report는 두 플래그를 동시에 적용
+    if args.skip_crawl_report:
+        args.skip_crawl  = True
+        args.skip_report = True
 
     logger.info("=" * 55)
     logger.info(f"  RANKING_NAM 파이프라인 시작 — {today1}")

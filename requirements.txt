@@ -1,0 +1,15 @@
+# 크롤링
+pandas
+selenium
+beautifulsoup4
+tqdm
+webdriver-manager
+fake-useragent
+selenium-stealth
+undetected-chromedriver
+setuptools
+requests
+
+# 리포트 / 카드 생성
+openpyxl>=3.1.0
+Pillow>=10.0.0

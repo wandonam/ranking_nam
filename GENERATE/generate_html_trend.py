@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 PATHS = {
-    "excel_template": "../CRAWLING/01_Result/{today}_ranking.xlsx",
+    "excel_template": "../data/report/{today}_ranking.xlsx",
     "css":            "./css/style.css",
     "instagram_icon": "./images/instagram.png",
     "no_image":       "./images/no-image.png",
@@ -35,7 +35,7 @@ TREND_CHANNEL_CONFIG = {
     "naver": {
         "channel_label":       "네이버",
         "logo_path":           "./images/naver.png",
-        "image_path_template": "../CRAWLING/00_Database/01_naver/01_healthyfood/{today}/{rank:02d}",
+        "image_path_template": "../data/raw/naver/{today}/{rank:02d}",
         "hot_sheet":           "naver_hot",
         "down_sheet":          "naver_down",
         "hot_filename":        "01_naver_hot",
@@ -44,7 +44,7 @@ TREND_CHANNEL_CONFIG = {
     "coupang": {
         "channel_label":       "쿠팡",
         "logo_path":           "./images/coupang.png",
-        "image_path_template": "../CRAWLING/00_Database/02_coupang/01_healthyfood/{today}/{rank:02d}",
+        "image_path_template": "../data/raw/coupang/{today}/{rank:02d}",
         "hot_sheet":           "coupang_hot",
         "down_sheet":          "coupang_down",
         "hot_filename":        "02_coupang_hot",
@@ -53,7 +53,7 @@ TREND_CHANNEL_CONFIG = {
     "oliveyoung": {
         "channel_label":       "올리브영",
         "logo_path":           "./images/oliveyoung.png",
-        "image_path_template": "../CRAWLING/00_Database/03_oliveyoung/01_healthyfood/{today}/{rank:02d}",
+        "image_path_template": "../data/raw/oliveyoung/{today}/{rank:02d}",
         "hot_sheet":           "oliveyoung_hot",
         "down_sheet":          "oliveyoung_down",
         "hot_filename":        "03_oliveyoung_hot",
@@ -62,7 +62,7 @@ TREND_CHANNEL_CONFIG = {
     "kakao": {
         "channel_label":       "카카오",
         "logo_path":           "./images/kakao.png",
-        "image_path_template": "../CRAWLING/00_Database/04_kakao/01_healthyfood/{today}/{rank:02d}",
+        "image_path_template": "../data/raw/kakao/{today}/{rank:02d}",
         "hot_sheet":           "kakao_hot",
         "down_sheet":          "kakao_down",
         "hot_filename":        "04_kakao_hot",
@@ -71,7 +71,7 @@ TREND_CHANNEL_CONFIG = {
     "daiso": {
         "channel_label":       "다이소",
         "logo_path":           "./images/daiso.png",
-        "image_path_template": "../CRAWLING/00_Database/05_daiso/01_healthyfood/{today}/{rank:02d}",
+        "image_path_template": "../data/raw/daiso/{today}/{rank:02d}",
         "hot_sheet":           "daiso_hot",
         "down_sheet":          "daiso_down",
         "hot_filename":        "05_daiso_hot",
@@ -83,20 +83,16 @@ TREND_CHANNEL_CONFIG = {
 # ──────────────────────────────────────────────
 # 색상 규칙
 # ──────────────────────────────────────────────
-def get_card_bg(rank_diff: float, trend_type: str) -> str:
-    """배경색 반환 (텍스트는 항상 검정)"""
+def get_card_bg(rank_diff: float, trend_type: str) -> str | None:
+    """배경색 반환. 기본값(#F2F2F2)이면 None 반환 → CSS에 위임"""
     diff = abs(rank_diff)
     if trend_type == "hot":
-        if diff > 40:
-            return "#FF595C"
-        if diff > 20:
-            return "#FFA7A8"
+        if diff > 40: return "#FF595C80"
+        if diff > 20: return "#FFA7A880"
     else:  # down
-        if diff > 40:
-            return "#1F22FF"
-        if diff > 20:
-            return "#A7A8FF"
-    return "#F2F2F2"
+        if diff > 40: return "#1F22FF80"
+        if diff > 20: return "#A7A8FF80"
+    return None
 
 
 # ──────────────────────────────────────────────
@@ -139,17 +135,18 @@ def build_mini_card(
 
     if pd.isna(rank_diff_val):
         diff_text = "New"
-        bg_color  = "#F2F2F2"
+        bg_color  = None
     else:
         diff_abs  = abs(int(rank_diff_val))
         arrow     = "▲" if trend_type == "hot" else "▼"
         diff_text = f"{arrow}{diff_abs}"
         bg_color  = get_card_bg(rank_diff_val, trend_type)
 
-    diff_cls = "mini-diff-hot" if trend_type == "hot" else "mini-diff-down"
+    diff_cls   = "mini-diff-hot" if trend_type == "hot" else "mini-diff-down"
+    bg_style   = f' style="background-color:{bg_color};"' if bg_color else ""
 
     return f"""
-    <div class="mini-card" style="background-color:{bg_color};">
+    <div class="mini-card"{bg_style}>
       <div class="mini-rank-row">
         <span class="mini-rank-num">{rank}위</span><span class="mini-diff {diff_cls}">{diff_text}</span>
       </div>

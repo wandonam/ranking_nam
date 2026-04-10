@@ -32,7 +32,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-RESULT_DIR = "./result"
+RESULT_DIR = "../data/output"
 
 
 # ──────────────────────────────────────────────

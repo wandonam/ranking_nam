@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 PATHS = {
-    "excel_template": "../CRAWLING/01_Result/{today}_ranking.xlsx",
+    "excel_template": "../data/report/{today}_ranking.xlsx",
     "css":            "./css/style.css",
     "instagram_icon": "./images/instagram.png",
     "no_image":       "./images/no-image.png",
@@ -36,7 +36,7 @@ CHANNEL_CONFIG = {
     "naver": {
         "channel_label":       "네이버",
         "logo_path":           "./images/naver.png",
-        "image_path_template": "../CRAWLING/00_Database/01_naver/01_healthyfood/{today}/{rank:02d}",
+        "image_path_template": "../data/raw/naver/{today}/{rank:02d}",
         "meta_fields":         ["price", "review", "star"],
         "sheet_name":          "naver_10",
         "filename_prefix":     "01_naver",
@@ -44,7 +44,7 @@ CHANNEL_CONFIG = {
     "coupang": {
         "channel_label":       "쿠팡",
         "logo_path":           "./images/coupang.png",
-        "image_path_template": "../CRAWLING/00_Database/02_coupang/01_healthyfood/{today}/{rank:02d}",
+        "image_path_template": "../data/raw/coupang/{today}/{rank:02d}",
         "meta_fields":         ["price", "review", "star"],
         "sheet_name":          "coupang_10",
         "filename_prefix":     "02_coupang",
@@ -52,7 +52,7 @@ CHANNEL_CONFIG = {
     "oliveyoung": {
         "channel_label":       "올리브영",
         "logo_path":           "./images/oliveyoung.png",
-        "image_path_template": "../CRAWLING/00_Database/03_oliveyoung/01_healthyfood/{today}/{rank:02d}",
+        "image_path_template": "../data/raw/oliveyoung/{today}/{rank:02d}",
         "meta_fields":         ["price"],
         "sheet_name":          "oliveyoung_10",
         "filename_prefix":     "03_oliveyoung",
@@ -60,7 +60,7 @@ CHANNEL_CONFIG = {
     "kakao": {
         "channel_label":       "카카오",
         "logo_path":           "./images/kakao.png",
-        "image_path_template": "../CRAWLING/00_Database/04_kakao/01_healthyfood/{today}/{rank:02d}",
+        "image_path_template": "../data/raw/kakao/{today}/{rank:02d}",
         "meta_fields":         ["price", "like"],
         "sheet_name":          "kakao_10",
         "filename_prefix":     "04_kakao",
@@ -68,7 +68,7 @@ CHANNEL_CONFIG = {
     "daiso": {
         "channel_label":       "다이소",
         "logo_path":           "./images/daiso.png",
-        "image_path_template": "../CRAWLING/00_Database/05_daiso/01_healthyfood/{today}/{rank:02d}",
+        "image_path_template": "../data/raw/daiso/{today}/{rank:02d}",
         "meta_fields":         ["price", "review", "star"],
         "sheet_name":          "daiso_10",
         "filename_prefix":     "05_daiso",

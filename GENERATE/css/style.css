@@ -1,0 +1,435 @@
+/* 폰트 */
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('./fonts/GmarketSansTTFMedium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'GmarketSans';
+  src: url('./fonts/GmarketSansTTFBold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('./fonts/Pretendard-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('./fonts/Pretendard-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('./fonts/Pretendard-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('./fonts/Pretendard-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('./fonts/Pretendard-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('./fonts/Pretendard-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('./fonts/Pretendard-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('./fonts/Pretendard-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('./fonts/Pretendard-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+
+  font-family: 'Pretendard', Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  color: #000;
+}
+
+.canvas {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 1080px;
+  height: 1350px;
+  background: #ffffff;
+  padding: 14px 36px 24px 36px;
+  overflow: hidden;
+  font-family: 'Pretendard', Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  border: 3px solid #000;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* 상단 바 */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.top-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.insta-logo {
+  width: 42px;
+}
+
+.ranking-name {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.1;
+  letter-spacing: -0.05em;
+  font-family: 'Pretendard';
+}
+
+.top-right {
+  font-size: 30px;
+  font-weight: 400;
+  color: #7D7D7D;
+  text-align: right;
+  letter-spacing: -0.05em;
+  font-family: 'Pretendard';
+}
+
+/* 히어로 */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hero-left {
+  width: 60%;
+}
+
+.hero-logo {
+  width: 100%;
+  max-width: 600px;
+}
+
+.hero-right {
+  width: 38%;
+  text-align: center;
+}
+
+.title-main,
+.title-sub {
+  margin: 0;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 1;
+  color: #000;
+  letter-spacing: -10px;
+  text-shadow: 0px 7px 5px rgba(0,0,0,0.5);
+  font-family: 'GmarketSans';
+}
+
+.title-sub {
+  margin-top: 8px;
+}
+
+/* 랭킹 표 */
+.ranking-table {
+  border: 2px solid #000;
+  position: absolute;
+  top: 285px;
+  left: 36px;
+  width: calc(100% - 72px);
+}
+
+.rank-row {
+  display: flex;
+  min-height: 210px;
+  border-bottom: 1px solid #000;
+}
+
+.rank-row:last-child {
+  border-bottom: none;
+}
+
+.rank-col {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 95px;
+  font-weight: 500;
+  font-family: 'GmarketSans';
+  letter-spacing: -10px;
+  white-space: nowrap;
+}
+
+.rank-first {
+  color: red;
+  font-size: 100px;
+}
+
+.rank-last {
+  font-size: 80px;
+  letter-spacing: -10px;
+}
+
+.image-col {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.info-col {
+  flex: 1;
+  min-width: 0;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.brand-name {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+.rank-change.up {
+  color: red;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05em;  
+}
+
+.rank-change.down {
+  color: blue;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05em;  
+}
+
+.rank-change.new {
+  color: green;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+}
+
+.product-name {
+  font-size: 33px;
+  margin-bottom: 16px;
+  letter-spacing: -0.05em;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.meta-row {
+  display: flex;
+  gap: 20px;
+  font-size: 33px;
+  align-items: center;
+  line-height: 1;
+}
+
+.star-score {
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+
+
+/* ════════════════════════════════════════════
+   트렌드 카드 (급상승 / 급하락)
+   ════════════════════════════════════════════ */
+
+/* 히어로 타이틀 */
+.trend-title-type,
+.trend-title-brand {
+  margin: 0;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  letter-spacing: -0.1em;
+  font-family: 'GmarketSans';
+  text-shadow: 0px 7px 5px rgba(0,0,0,0.5);
+}
+
+.trend-title-brand {
+  margin-top: 6px;
+}
+
+.trend-arrow-hot  { color: #FF0000; }
+.trend-arrow-down { color: #1F22FF; }
+
+/* hero-right 오버라이드: 텍스트(좌) + 삼각형(우) 가로 배치 */
+.trend-hero-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.trend-title-lines {
+  display: flex;
+  flex-direction: column;
+}
+
+.trend-arrow-symbol {
+  font-size: 100px;
+  font-weight: 700;
+  font-family: 'GmarketSans';
+  letter-spacing: -0.1em;
+  line-height: 1;
+  flex-shrink: 0;
+  text-shadow: 0px 7px 5px rgba(0,0,0,0.5);
+}
+
+/* 그리드 컨테이너 */
+.trend-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 12px;
+  position: absolute;
+  top: 285px;
+  left: 36px;
+  width: calc(100% - 72px);
+  height: calc(1350px - 285px - 24px);
+}
+
+/* 미니 카드 */
+.mini-card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 10px 10px;
+  background: #F2F2F2;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* 순위 + 등락 행 */
+.mini-rank-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 3px;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.mini-rank-num {
+  font-size: 45px;
+  font-weight: 700;
+  letter-spacing: -0.1em;
+  line-height: 1;
+  font-family: 'GmarketSans';
+}
+
+.mini-diff {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  font-family: 'GmarketSans';
+}
+
+/* 상승/하락 diff 색상 */
+.mini-diff-hot  { color: #FF0000; }
+.mini-diff-down { color: #0004FF; }
+
+/* 이미지 영역 */
+.mini-image-wrap {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  padding: 6px 0;
+}
+
+.mini-product-img {
+  max-width: 95%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* 브랜드명 */
+.mini-brand {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-family: 'Pretendard';
+  flex-shrink: 0;
+}

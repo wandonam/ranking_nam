@@ -1,0 +1,10 @@
+pandas
+selenium
+beautifulsoup4
+tqdm
+webdriver-manager
+fake-useragent
+selenium-stealth
+undetected-chromedriver
+setuptools
+requests

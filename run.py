@@ -8,12 +8,14 @@ run.py
   3단계: 카드 생성    (GENERATE/main.py)
 
 사용법:
-    python run.py                        # 전체 실행
-    python run.py --date 20250403        # 특정 날짜
-    python run.py --skip-crawl           # 크롤링 건너뜀 (리포트+카드만)
-    python run.py --skip-report          # 리포트 건너뜀
-    python run.py --skip-generate        # 카드 생성 건너뜀
-    python run.py --account my_account   # 인스타그램 계정명 지정
+    python run.py                                      # 전체 실행
+    python run.py --date 20250403                      # 특정 날짜
+    python run.py --channel naver                      # 특정 채널만 크롤링 후 전체 파이프라인
+    python run.py --channel naver coupang              # 여러 채널만 크롤링 후 전체 파이프라인
+    python run.py --skip-crawl                         # 크롤링 건너뜀 (리포트+카드만)
+    python run.py --skip-report                        # 리포트 건너뜀
+    python run.py --skip-generate                      # 카드 생성 건너뜀
+    python run.py --account my_account                 # 인스타그램 계정명 지정
 """
 
 import argparse
@@ -49,6 +51,8 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="랭킹 카드 전체 파이프라인")
     parser.add_argument("--date",          default=None,           help="날짜 YYYYMMDD (기본값: 오늘)")
     parser.add_argument("--account",       default="RANKING_NAM",  help="인스타그램 계정명")
+    parser.add_argument("--channel",       nargs="+",  default=None,
+                        metavar="CHANNEL", help="크롤링할 채널명 (naver coupang oliveyoung kakao daiso). 미지정 시 전체")
     parser.add_argument("--skip-crawl",        action="store_true", help="크롤링 건너뜀")
     parser.add_argument("--skip-report",       action="store_true", help="엑셀 리포트 건너뜀")
     parser.add_argument("--skip-crawl-report", action="store_true", help="크롤링 + 리포트 건너뜀 (카드 생성만)")
@@ -72,9 +76,11 @@ def main() -> None:
 
     # ── 1단계: 크롤링
     if not args.skip_crawl:
+        crawl_cmd = [sys.executable, "main.py"] + (args.channel if args.channel else [])
+        crawl_label = f"[1/3] 크롤링" + (f" ({', '.join(args.channel)})" if args.channel else "")
         ok = run_step(
-            "[1/3] 크롤링",
-            [sys.executable, "main.py"],
+            crawl_label,
+            crawl_cmd,
             cwd=CRAWLING_DIR,
         )
         if not ok:

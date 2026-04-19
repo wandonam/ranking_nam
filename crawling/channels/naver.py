@@ -11,6 +11,10 @@ def parse_naver(soup, today):
         parent = item.find_parent("li")
         code = parent.get("data-shp-contents-id", "N/A") if parent else "N/A"
 
+        a_tag = parent.select_one("a[href]") if parent else None
+        href = a_tag["href"] if a_tag else ""
+        url = ("https://snxbest.naver.com" + href) if href.startswith("/") else href
+
         brand_tag = item.select_one(".productCardResponsive_store__GaHMN")
         product_tag = item.select_one(".productCardResponsive_title__n77mU")
         price_tag = item.select_one(".productCardResponsive_number__cAjPl")
@@ -25,7 +29,8 @@ def parse_naver(soup, today):
             "product": product_tag.text.strip() if product_tag else "N/A",
             "price": price_tag.text.strip().replace(",", "") if price_tag else "N/A",
             "star": star_tag.text.strip().replace("별점", "") if star_tag else "N/A",
-            "review": review_tag.text.strip().replace(",", "").replace("리뷰", "").replace("+", "") if review_tag else "N/A"
+            "review": review_tag.text.strip().replace(",", "").replace("리뷰", "").replace("+", "") if review_tag else "N/A",
+            "url": url,
         })
 
     return data
@@ -36,6 +41,7 @@ def run():
         url=URL,
         base_dir=CHANNEL_PATHS["naver"],
         parse_func=parse_naver,
+        wait_selector=".productCardResponsive_information__CD_1n",
         image_selector=".productCardResponsive_thumbnail__ZDZh3 img",
     )
 

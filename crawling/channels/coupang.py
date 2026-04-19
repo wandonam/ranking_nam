@@ -13,9 +13,10 @@ def parse_coupang(soup, today):
         a_tag = item.select_one("a")
         href = a_tag["href"] if a_tag else ""
 
-        query = urlparse(href).query
-        params = parse_qs(query)
+        parsed = urlparse(href)
+        params = parse_qs(parsed.query)
         vendor_id = params.get("vendorItemId", ["N/A"])[0]
+        url = ("https://www.coupang.com" + parsed.path) if parsed.path else href
 
         product_tag = item.select_one(".ProductUnit_productNameV2__cV9cw")
         price_tag = item.select_one(".Price_priceValue__A4KOr")
@@ -33,6 +34,7 @@ def parse_coupang(soup, today):
             "price": price_tag.text.strip().replace(",", "").replace("원", "") if price_tag else "N/A",
             "star": star_tag.text.strip() if star_tag else "N/A",
             "review": review_tag.text.strip().replace("(", "").replace(")", "").replace(",", "") if review_tag else "N/A",
+            "url": url,
         })
 
     return data
@@ -43,6 +45,7 @@ def run():
         url=URL,
         base_dir=CHANNEL_PATHS["coupang"],
         parse_func=parse_coupang,
+        wait_selector="li.ProductUnit_productUnit__Qd6sv",
         image_selector=".ProductUnit_productImage__Mqcg1 img",
     )
 

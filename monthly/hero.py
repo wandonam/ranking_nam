@@ -26,7 +26,7 @@ from pathlib import Path
 import pandas as pd
 
 ROOT       = Path(__file__).parent.parent
-REPORT_DIR = ROOT / "data" / "report"
+MONTHLY_DIR = ROOT / "data" / "monthly"
 
 # 채널별 가중치 (합계 = 100)
 SCORE_WEIGHTS = {
@@ -123,7 +123,7 @@ def compute_scores(stats_df: pd.DataFrame, channel: str) -> pd.DataFrame:
 
 def run(year: int, month: int) -> dict:
     """채널별 히어로 선발 결과 반환. monthly.xlsx에 {channel}_hero 시트 추가."""
-    monthly_path = REPORT_DIR / f"{year}_{month:02d}_monthly.xlsx"
+    monthly_path = MONTHLY_DIR / f"{year}_{month:02d}_monthly.xlsx"
     if not monthly_path.exists():
         raise FileNotFoundError(
             f"월간 집계 파일 없음: {monthly_path}\naggregate.py 를 먼저 실행하세요."

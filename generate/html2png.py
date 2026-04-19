@@ -156,6 +156,35 @@ def run(today: str, input_dir: str) -> dict[str, int]:
     return {"success": success, "fail": fail}
 
 
+def run_folder(folder: str) -> dict[str, int]:
+    """
+    지정된 폴더 내 모든 HTML 파일을 PNG로 변환.
+    월간 파이프라인(run_monthly.py)에서 사용.
+    반환값: {"success": N, "fail": N}
+    """
+    html_files = sorted(f for f in os.listdir(folder) if f.endswith(".html"))
+    logger.info(f"[PNG] 대상 폴더: {folder} ({len(html_files)}개)")
+
+    driver = make_driver()
+    success, fail = 0, 0
+
+    try:
+        for fname in html_files:
+            html_path = os.path.join(folder, fname)
+            try:
+                out = capture_html(driver, html_path)
+                logger.info(f"✅ {fname} → {os.path.basename(out)}")
+                success += 1
+            except Exception as e:
+                logger.error(f"❌ {fname} 실패: {e}")
+                fail += 1
+    finally:
+        driver.quit()
+
+    logger.info(f"[PNG] 완료 — 성공 {success}개 / 실패 {fail}개")
+    return {"success": success, "fail": fail}
+
+
 # ──────────────────────────────────────────────
 # 단독 실행 진입점
 # ──────────────────────────────────────────────

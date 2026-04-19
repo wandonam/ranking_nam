@@ -108,6 +108,8 @@ def parse_kakao(soup, today):
         like_text = like_tag.get_text(strip=True) if like_tag else ""
         like = parse_like(like_text)
 
+        url = ("https://gift.kakao.com" + href) if href.startswith("/") else href
+
         data.append({
             "date": today,
             "code": str(code),
@@ -116,6 +118,7 @@ def parse_kakao(soup, today):
             "price": price,
             "like": like,
             "img_url": get_img_url(card),
+            "url": url,
         })
 
     return data
@@ -130,9 +133,10 @@ def post_process_kakao(data):
             "rank": idx,
             "brand": row["brand"],
             "product": row["product"],
-            "price": row["price"],   # CSV엔 있지만 순서 뒤로
+            "price": row["price"],
             "like": row["like"],
             "img_url": row["img_url"],
+            "url": row["url"],
         })
     return ordered
 
@@ -143,6 +147,7 @@ def run():
         url=URL,
         base_dir=CHANNEL_PATHS["kakao"],
         parse_func=parse_kakao,
+        wait_selector=".info_prd",
         image_selector=None,
         pre_actions=kakao_pre_actions,
         post_process_func=post_process_kakao,

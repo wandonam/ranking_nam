@@ -23,8 +23,8 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).parent.parent
-RAW_DIR    = ROOT / "data" / "raw"
-REPORT_DIR = ROOT / "data" / "report"
+RAW_DIR     = ROOT / "data" / "raw"
+MONTHLY_DIR = ROOT / "data" / "monthly"
 
 # 채널별 보유 필드 정의
 CHANNEL_META = {
@@ -41,17 +41,38 @@ CHANNEL_META = {
 # ──────────────────────────────────────────────
 
 def load_month_csvs(channel: str, year: int, month: int) -> pd.DataFrame:
-    """해당 월에 속하는 모든 CSV를 로드해 합친다."""
-    channel_dir = RAW_DIR / channel
-    prefix = f"{year}{month:02d}"
+    """해당 월에 속하는 모든 CSV를 로드해 합친다.
 
-    csv_files = sorted(channel_dir.glob(f"{prefix}*.csv"))
-    if not csv_files:
+    신규 파일: period_ym 컬럼(YYYYMM)으로 필터링.
+    구파일(period_ym 없음): 파일명 prefix(YYYYMMDD) 방식으로 fallback.
+    """
+    channel_dir = RAW_DIR / channel
+    target_ym = f"{year}{month:02d}"
+
+    all_csv = sorted(channel_dir.glob("*.csv"))
+    if not all_csv:
+        raise FileNotFoundError(f"[{channel}] CSV 파일 없음: {channel_dir}")
+
+    new_frames, old_frames = [], []
+    for f in all_csv:
+        try:
+            df_tmp = pd.read_csv(f)
+        except Exception:
+            continue
+
+        if "period_ym" in df_tmp.columns:
+            filtered = df_tmp[df_tmp["period_ym"].astype(str) == target_ym]
+            if not filtered.empty:
+                new_frames.append(filtered)
+        elif f.stem.startswith(target_ym):
+            old_frames.append(df_tmp)
+
+    frames = new_frames if new_frames else old_frames
+    if not frames:
         raise FileNotFoundError(
-            f"[{channel}] {prefix}로 시작하는 CSV 없음: {channel_dir}"
+            f"[{channel}] {target_ym} 해당 데이터 없음: {channel_dir}"
         )
 
-    frames = [pd.read_csv(f) for f in csv_files]
     df = pd.concat(frames, ignore_index=True)
     df["date"] = df["date"].astype(str)
     return df
@@ -132,8 +153,8 @@ def _safe_int(val) -> int:
 
 def run(year: int, month: int) -> Path:
     """월간 집계 실행 → Excel 저장 경로 반환."""
-    REPORT_DIR.mkdir(parents=True, exist_ok=True)
-    output_path = REPORT_DIR / f"{year}_{month:02d}_monthly.xlsx"
+    MONTHLY_DIR.mkdir(parents=True, exist_ok=True)
+    output_path = MONTHLY_DIR / f"{year}_{month:02d}_monthly.xlsx"
 
     with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
         for channel in CHANNEL_META:
@@ -161,6 +182,7 @@ if __name__ == "__main__":
         y, m = map(int, args.month.split("-"))
     else:
         now = datetime.now()
-        y, m = now.year, now.month
+        m = now.month - 1 or 12
+        y = now.year if now.month > 1 else now.year - 1
 
     run(y, m)

@@ -14,6 +14,8 @@ def parse_oliveyoung(soup, today):
         info_tag = item.select_one(".prd_info")
 
         code = a_tag.get("data-ref-goodsno", "N/A") if a_tag else "N/A"
+        href = a_tag.get("href", "") if a_tag else ""
+        url = ("https://www.oliveyoung.co.kr" + href) if href.startswith("/") else href
 
         brand_tag = info_tag.select_one(".tx_brand") if info_tag else None
         product_tag = info_tag.select_one(".tx_name") if info_tag else None
@@ -40,7 +42,8 @@ def parse_oliveyoung(soup, today):
             "rank": idx,
             "brand": brand,
             "product": product,
-            "price": price
+            "price": price,
+            "url": url,
         })
 
     return data
@@ -52,6 +55,7 @@ def run():
         url=URL,
         base_dir=CHANNEL_PATHS["oliveyoung"],
         parse_func=parse_oliveyoung,
+        wait_selector=".prd_info",
         image_selector=".prd_thumb img",
     )
 

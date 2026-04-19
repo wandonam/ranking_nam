@@ -1,25 +1,27 @@
 import re
 import time
 from urllib.parse import urlparse, parse_qs
-from selenium.webdriver.common.by import By
 
 from config import CHANNEL_PATHS
+from core.browser import safe_click
 from core.runner import run_channel
 
 URL = "https://www.daisomall.co.kr/ds/rank/C105"
 
 def daiso_pre_actions(driver):
-    driver.find_element(
-        By.CSS_SELECTOR,
-        "#__layout > section > div.wrap.scrollArea > div > div > div.section.section-top > div.prod-category > div > div > div > div > button:nth-child(9)"
-    ).click()
-    time.sleep(4)
+    safe_click(
+        driver,
+        "#__layout > section > div.wrap.scrollArea > div > div > div.section.section-top > div.prod-category > div > div > div > div > button:nth-child(9)",
+        label="daiso 카테고리 버튼",
+    )
+    time.sleep(2)
 
-    driver.find_element(
-        By.CSS_SELECTOR,
-        "#__layout > section > div.wrap.scrollArea > div > div > div.section.section-top > div:nth-child(2) > div > div.add-ons > ul > li:nth-child(3) > button > span > span"
-    ).click()
-    time.sleep(4)
+    safe_click(
+        driver,
+        "#__layout > section > div.wrap.scrollArea > div > div > div.section.section-top > div:nth-child(2) > div > div.add-ons > ul > li:nth-child(3) > button > span > span",
+        label="daiso 정렬 버튼",
+    )
+    time.sleep(2)
 
     driver.execute_script("document.body.style.zoom='50%'")
 
@@ -41,9 +43,10 @@ def parse_daiso(soup, today):
         a_tag = item.find_previous("a", class_="prod-thumb__link") or item.select_one("a.prod-thumb__link")
         href = a_tag.get("href", "") if a_tag else ""
 
-        query = urlparse(href).query
-        params = parse_qs(query)
+        parsed = urlparse(href)
+        params = parse_qs(parsed.query)
         code = params.get("pdNo", ["N/A"])[0]
+        url = ("https://www.daisomall.co.kr" + parsed.path + ("?" + parsed.query if parsed.query else "")) if parsed.path else href
 
         brand = item.select_one(".product-title").text.split()[0]
         product = item.select_one(".product-title").text
@@ -72,10 +75,14 @@ def parse_daiso(soup, today):
             "product": product,
             "price": price,
             "star": star,
-            "review": review
+            "review": review,
+            "url": url,
         })
 
     return data
+
+# 다이소 전용 팝업 닫기 셀렉터 (팝업 HTML 확인 후 추가)
+_DAISO_POPUP_SELECTORS = [r"body > div > div.absolute.top-1\/2.flex.w-full.-translate-y-1\/2.justify-center > div > div > button:nth-child(2)"]
 
 def run():
     return run_channel(
@@ -83,8 +90,10 @@ def run():
         url=URL,
         base_dir=CHANNEL_PATHS["daiso"],
         parse_func=parse_daiso,
+        wait_selector=".product-info",
         image_selector=".thumb-img",
         pre_actions=daiso_pre_actions,
+        popup_selectors=_DAISO_POPUP_SELECTORS,
     )
 
 if __name__ == "__main__":

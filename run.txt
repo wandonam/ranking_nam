@@ -1,0 +1,49 @@
+2026-04-19 09:00:01 [INFO] =======================================================
+2026-04-19 09:00:01 [INFO]   RANKING_NAM 파이프라인 시작 — 2026년 04월 19일
+2026-04-19 09:00:01 [INFO] =======================================================
+2026-04-19 09:00:01 [INFO] ▶ [1/3] 크롤링
+2026-04-19 09:02:18 [INFO] ũ�Ѹ� ����
+2026-04-19 09:02:18 [INFO] [����] naver: 'cp949' codec can't encode character '\u2591' in position 12: illegal multibyte sequence
+2026-04-19 09:02:18 [INFO] [����] coupang: 'cp949' codec can't encode character '\u2591' in position 12: illegal multibyte sequence
+2026-04-19 09:02:18 [INFO] [����] oliveyoung: 'cp949' codec can't encode character '\u2591' in position 12: illegal multibyte sequence
+2026-04-19 09:02:18 [INFO] [����] kakao: 'cp949' codec can't encode character '\u2591' in position 12: illegal multibyte sequence
+2026-04-19 09:02:18 [INFO] [����] daiso: Message: element click intercepted: Element <button type="button" class="chip-button tabs-item chip--lg" style="--binding-bg: #28323C; --binding-color: #ffffff;">...</button> is not clickable at point (1311, 410). Other element would receive the click: <iframe src="https://inapp.blux.ai?inapp_id=69b770f508109b46743da086&amp;application_id=6912c9f8aedcac16fcfc0a7d&amp;stage=prod&amp;sdk_version=2.2.9" id="blux-inapp-69b770f508109b46743da086" style="position: fixed; width: 1904px; height: 985px; top: 0px; left: 0px; z-index: 9999;"></iframe>
+2026-04-19 09:02:18 [INFO]   (Session info: chrome=147.0.7727.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+2026-04-19 09:02:18 [INFO] Stacktrace:
+2026-04-19 09:02:18 [INFO] 	chromedriver!GetHandleVerifier [0x7ff6796c29c5+2ed785]
+2026-04-19 09:02:18 [INFO] 	chromedriver!GetHandleVerifier [0x7ff6793ea0d0+14e90]
+2026-04-19 09:02:18 [INFO] 	chromedriver!(No symbol) [0x7ff67914db2d]
+2026-04-19 09:02:18 [INFO] 	chromedriver!(No symbol) [0x7ff6791af0e5]
+2026-04-19 09:02:18 [INFO] 	chromedriver!(No symbol) [0x7ff6791ac7fa]
+2026-04-19 09:02:18 [INFO] 	chromedriver!(No symbol) [0x7ff6791a9685]
+2026-04-19 09:02:18 [INFO] 	chromedriver!(No symbol) [0x7ff6791a8537]
+2026-04-19 09:02:18 [INFO] 	chromedriver!(No symbol) [0x7ff67919b186]
+2026-04-19 09:02:18 [INFO] 	chromedriver!(No symbol) [0x7ff6791cff8a]
+2026-04-19 09:02:18 [INFO] 	chromedriver!(No symbol) [0x7ff67919aa06]
+2026-04-19 09:02:18 [INFO] 	chromedriver!(No symbol) [0x7ff6791f3b9b]
+2026-04-19 09:02:18 [INFO] 	chromedriver!(No symbol) [0x7ff679199298]
+2026-04-19 09:02:18 [INFO] 	chromedriver!(No symbol) [0x7ff67919a183]
+2026-04-19 09:02:18 [INFO] 	chromedriver!GetHandleVerifier [0x7ff6796ede0d+318bcd]
+2026-04-19 09:02:18 [INFO] 	chromedriver!GetHandleVerifier [0x7ff6796e8588+313348]
+2026-04-19 09:02:18 [INFO] 	chromedriver!GetHandleVerifier [0x7ff679709d7a+334b3a]
+2026-04-19 09:02:18 [INFO] 	chromedriver!GetHandleVerifier [0x7ff679406785+31545]
+2026-04-19 09:02:18 [INFO] 	chromedriver!GetHandleVerifier [0x7ff67940facc+3a88c]
+2026-04-19 09:02:18 [INFO] 	chromedriver!GetHandleVerifier [0x7ff6793f3634+1e3f4]
+2026-04-19 09:02:18 [INFO] 	chromedriver!GetHandleVerifier [0x7ff6793f37e6+1e5a6]
+2026-04-19 09:02:18 [INFO] 	chromedriver!GetHandleVerifier [0x7ff6793d7e37+2bf7]
+2026-04-19 09:02:18 [INFO] 	KERNEL32!BaseThreadInitThunk [0x7ffc0be7e8d7+17]
+2026-04-19 09:02:18 [INFO] 	ntdll!RtlUserThreadStart [0x7ffc0c80c3fc+2c]
+2026-04-19 09:02:18 [INFO] ũ�Ѹ� ����
+2026-04-19 09:02:18 [INFO] ✅ [1/3] 크롤링 완료
+2026-04-19 09:02:18 [INFO] ▶ [2/3] 엑셀 리포트 생성
+2026-04-19 09:02:21 [INFO] ���� �Ϸ�: ..\data\report\20260419_ranking.xlsx
+2026-04-19 09:02:21 [INFO] ✅ [2/3] 엑셀 리포트 생성 완료
+2026-04-19 09:02:21 [INFO] ▶ [3/3] 카드 생성 (HTML → PNG)
+2026-04-19 09:03:16 [INFO] ✅ [3/3] 카드 생성 (HTML → PNG) 완료
+2026-04-19 09:03:16 [INFO] =======================================================
+2026-04-19 09:03:16 [INFO]   파이프라인 완료 ✅  결과물: data/output/20260419/
+2026-04-19 09:03:16 [INFO] =======================================================
+2026-04-19 10:21:42 [INFO] =======================================================
+2026-04-19 10:21:42 [INFO]   RANKING_NAM 파이프라인 시작 — 2026년 04월 19일
+2026-04-19 10:21:42 [INFO] =======================================================
+2026-04-19 10:21:42 [INFO] ▶ [1/3] 크롤링

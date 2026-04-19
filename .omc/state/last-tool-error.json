@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"H:/내 드라이브/페르소나/01_RANKING_NAM\\\" && python monthly/aggregate.py --month 2026-04 2>&1\",\"description\":\"aggregate.py 실행 테스트\"}",
+  "error": "Exit code 1\nTraceback (most recent call last):\r\n  File \"H:\\�� ����̺�\\�丣�ҳ�\\01_RANKING_NAM\\monthly\\aggregate.py\", line 166, in <module>\r\n    run(y, m)\r\n  File \"H:\\�� ����̺�\\�丣�ҳ�\\01_RANKING_NAM\\monthly\\aggregate.py\", line 147, in run\r\n    print(f\"  [{channel}] �Ϸ� \\u2014 {len(stats_df)}�� ��ǰ, {daily_df['date'].nunique()}��\")\r\nUnicodeEncodeError: 'cp949' codec can't encode character '\\u2014' in position 13: illegal multibyte sequence",
+  "timestamp": "2026-04-17T08:33:33.630Z",
+  "retry_count": 1
+}

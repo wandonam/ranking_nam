@@ -11,9 +11,9 @@ def parse_naver(soup, today):
         parent = item.find_parent("li")
         code = parent.get("data-shp-contents-id", "N/A") if parent else "N/A"
 
-        a_tag = parent.select_one("a[href]") if parent else None
-        href = a_tag["href"] if a_tag else ""
-        url = ("https://snxbest.naver.com" + href) if href.startswith("/") else href
+        store_tag = item.select_one(".productCardResponsive_store_link__7WI_f")
+        store_href = store_tag["href"] if store_tag else ""
+        url = f"{store_href}/products/{code}" if store_href else ""
 
         brand_tag = item.select_one(".productCardResponsive_store__GaHMN")
         product_tag = item.select_one(".productCardResponsive_title__n77mU")

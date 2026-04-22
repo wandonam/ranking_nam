@@ -1,0 +1,175 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1776824639286,
+  "projectRoot": "H:\\내 드라이브\\페르소나\\01_RANKING_NAM",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "requirements.txt"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pip",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "crawling": {
+      "path": "crawling",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1776824639219,
+      "keyFiles": [
+        "requirements.txt",
+        "main.py",
+        "config.py",
+        "report.py"
+      ]
+    },
+    "generate": {
+      "path": "generate",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1776824639221,
+      "keyFiles": [
+        "index.html",
+        "requirements.txt",
+        "main.py",
+        "generate_html.py",
+        "html2png.py"
+      ]
+    },
+    "data": {
+      "path": "data",
+      "purpose": "Data files",
+      "fileCount": 0,
+      "lastAccessed": 1776824639224,
+      "keyFiles": []
+    },
+    "driver": {
+      "path": "driver",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1776824639226,
+      "keyFiles": []
+    },
+    "monthly": {
+      "path": "monthly",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1776824639229,
+      "keyFiles": [
+        "__init__.py",
+        "aggregate.py",
+        "hero.py",
+        "export.py",
+        "review_config.py"
+      ]
+    },
+    "__pycache__": {
+      "path": "__pycache__",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1776824639231,
+      "keyFiles": [
+        "run_monthly.cpython-312.pyc"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "generate\\generate_html_weekly_trend.py",
+      "accessCount": 41,
+      "lastAccessed": 1776842419967,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "accessCount": 10,
+      "lastAccessed": 1776839002150,
+      "type": "file"
+    },
+    {
+      "path": "monthly\\crawl_reviews.py",
+      "accessCount": 6,
+      "lastAccessed": 1776841580582,
+      "type": "file"
+    },
+    {
+      "path": "monthly\\hero.py",
+      "accessCount": 4,
+      "lastAccessed": 1776839251842,
+      "type": "file"
+    },
+    {
+      "path": "generate\\generate_html_review_summary.py",
+      "accessCount": 4,
+      "lastAccessed": 1776843966489,
+      "type": "file"
+    },
+    {
+      "path": "generate\\generate_html_trend.py",
+      "accessCount": 3,
+      "lastAccessed": 1776833142364,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\user\\.claude\\plans\\binary-whistling-gizmo.md",
+      "accessCount": 3,
+      "lastAccessed": 1776843675807,
+      "type": "file"
+    },
+    {
+      "path": "data\\output\\2026_04_monthly\\weekly_trend_naver.html",
+      "accessCount": 2,
+      "lastAccessed": 1776824698523,
+      "type": "file"
+    },
+    {
+      "path": "generate",
+      "accessCount": 2,
+      "lastAccessed": 1776838975770,
+      "type": "directory"
+    },
+    {
+      "path": "",
+      "accessCount": 1,
+      "lastAccessed": 1776842369686,
+      "type": "directory"
+    },
+    {
+      "path": "generate\\css\\style.css",
+      "accessCount": 1,
+      "lastAccessed": 1776842419525,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

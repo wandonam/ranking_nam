@@ -49,3 +49,240 @@
 2026-04-19 15:46:07 [INFO]   파이프라인 완료 - 성공 0개 / 실패 0개
 2026-04-19 15:46:07 [INFO]   결과물: data/output/2026_04_monthly/
 2026-04-19 15:46:07 [INFO] =======================================================
+2026-04-20 11:50:27 [INFO] =======================================================
+2026-04-20 11:50:27 [INFO]   월간 히어로 파이프라인 시작 - 2026년 04월
+2026-04-20 11:50:27 [INFO] =======================================================
+2026-04-20 11:50:27 [INFO] [1/5] 월간 데이터 집계 시작
+2026-04-20 11:50:31 [INFO] [1/5] 집계 완료
+2026-04-20 11:50:31 [INFO] [2/5] 히어로 제품 선발 시작
+2026-04-20 11:50:33 [INFO] [2/5] 히어로 선발 완료 - 5개 채널
+2026-04-20 11:50:33 [INFO] [3/5] 히어로 상세 파일 생성 시작
+2026-04-20 11:50:33 [ERROR] [3/5] 상세 파일 생성 실패: [Errno 13] Permission denied: 'H:\\내 드라이브\\페르소나\\01_RANKING_NAM\\data\\hero\\2026_04\\naver.xlsx'
+2026-04-20 11:50:52 [INFO] =======================================================
+2026-04-20 11:50:52 [INFO]   월간 히어로 파이프라인 시작 - 2026년 04월
+2026-04-20 11:50:52 [INFO] =======================================================
+2026-04-20 11:50:52 [INFO] [1/5] 월간 데이터 집계 시작
+2026-04-20 11:50:56 [INFO] [1/5] 집계 완료
+2026-04-20 11:50:56 [INFO] [2/5] 히어로 제품 선발 시작
+2026-04-20 11:50:58 [INFO] [2/5] 히어로 선발 완료 - 5개 채널
+2026-04-20 11:50:58 [INFO] [3/5] 히어로 상세 파일 생성 시작
+2026-04-20 11:50:59 [INFO]   [naver] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\naver.xlsx
+2026-04-20 11:50:59 [INFO]   [coupang] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\coupang.xlsx
+2026-04-20 11:50:59 [INFO]   [oliveyoung] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\oliveyoung.xlsx
+2026-04-20 11:50:59 [INFO]   [kakao] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\kakao.xlsx
+2026-04-20 11:50:59 [INFO]   [daiso] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\daiso.xlsx
+2026-04-20 11:50:59 [INFO] [3/5] 상세 파일 생성 완료 - 5개 채널
+2026-04-20 11:51:00 [INFO] [4/5] 히어로 카드 HTML 생성 시작
+2026-04-20 11:51:00 [INFO] [HERO CARD] 2026년 04월
+2026-04-20 11:51:00 [ERROR]   히어로 카드 생성 실패: 월간 파일 없음: H:\내 드라이브\페르소나\01_RANKING_NAM\data\report\2026_04_monthly.xlsx
+2026-04-20 11:51:00 [INFO]   순위 추이 카드 HTML 생성 시작
+2026-04-20 11:51:00 [INFO] [TREND MONTHLY] 2026년 04월
+2026-04-20 11:51:00 [ERROR]   추이 카드 생성 실패: 월간 파일 없음: H:\내 드라이브\페르소나\01_RANKING_NAM\data\report\2026_04_monthly.xlsx
+2026-04-20 11:51:00 [INFO] [4/5] 카드 HTML 생성 완료
+2026-04-20 11:51:01 [INFO] [5/5] PNG 변환 시작
+2026-04-20 11:51:01 [ERROR] [5/5] PNG 변환 실패: [WinError 3] 지정된 경로를 찾을 수 없습니다: 'H:\\내 드라이브\\페르소나\\01_RANKING_NAM\\data\\output\\2026_04_monthly'
+2026-04-20 11:51:01 [INFO] =======================================================
+2026-04-20 11:51:01 [INFO]   파이프라인 완료 - 성공 0개 / 실패 3개
+2026-04-20 11:51:01 [INFO]   결과물: data/output/2026_04_monthly/
+2026-04-20 11:51:01 [INFO] =======================================================
+2026-04-20 12:00:27 [INFO] =======================================================
+2026-04-20 12:00:27 [INFO]   월간 히어로 파이프라인 시작 - 2026년 04월
+2026-04-20 12:00:27 [INFO] =======================================================
+2026-04-20 12:00:27 [INFO] [1/5] 월간 데이터 집계 시작
+2026-04-20 12:00:30 [INFO] [1/5] 집계 완료
+2026-04-20 12:00:30 [INFO] [2/5] 히어로 제품 선발 시작
+2026-04-20 12:00:33 [INFO] [2/5] 히어로 선발 완료 - 5개 채널
+2026-04-20 12:00:33 [INFO] [3/5] 히어로 상세 파일 생성 시작
+2026-04-20 12:00:34 [INFO]   [naver] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\naver.xlsx
+2026-04-20 12:00:34 [INFO]   [coupang] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\coupang.xlsx
+2026-04-20 12:00:34 [INFO]   [oliveyoung] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\oliveyoung.xlsx
+2026-04-20 12:00:34 [INFO]   [kakao] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\kakao.xlsx
+2026-04-20 12:00:34 [INFO]   [daiso] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\daiso.xlsx
+2026-04-20 12:00:34 [INFO] [3/5] 상세 파일 생성 완료 - 5개 채널
+2026-04-20 12:00:34 [INFO] [4/5] 히어로 카드 HTML 생성 시작
+2026-04-20 12:00:34 [INFO] [HERO CARD] 2026년 04월
+2026-04-20 12:00:34 [ERROR]   히어로 카드 생성 실패: 월간 파일 없음: H:\내 드라이브\페르소나\01_RANKING_NAM\data\report\2026_04_monthly.xlsx
+2026-04-20 12:00:34 [INFO]   순위 추이 카드 HTML 생성 시작
+2026-04-20 12:00:34 [INFO] [TREND MONTHLY] 2026년 04월
+2026-04-20 12:00:34 [ERROR]   추이 카드 생성 실패: 월간 파일 없음: H:\내 드라이브\페르소나\01_RANKING_NAM\data\report\2026_04_monthly.xlsx
+2026-04-20 12:00:34 [INFO] [4/5] 카드 HTML 생성 완료
+2026-04-20 12:00:35 [INFO] [5/5] PNG 변환 시작
+2026-04-20 12:00:35 [ERROR] [5/5] PNG 변환 실패: [WinError 3] 지정된 경로를 찾을 수 없습니다: 'H:\\내 드라이브\\페르소나\\01_RANKING_NAM\\data\\output\\2026_04_monthly'
+2026-04-20 12:00:35 [INFO] =======================================================
+2026-04-20 12:00:35 [INFO]   파이프라인 완료 - 성공 0개 / 실패 3개
+2026-04-20 12:00:35 [INFO]   결과물: data/output/2026_04_monthly/
+2026-04-20 12:00:35 [INFO] =======================================================
+2026-04-20 16:18:45 [INFO] =======================================================
+2026-04-20 16:18:45 [INFO]   월간 히어로 파이프라인 시작 - 2026년 04월
+2026-04-20 16:18:45 [INFO] =======================================================
+2026-04-20 16:18:45 [INFO] [1/6] 월간 데이터 집계 시작
+2026-04-20 16:18:49 [INFO] [1/6] 집계 완료
+2026-04-20 16:18:49 [INFO] [2/6] 히어로 제품 선발 시작
+2026-04-20 16:18:52 [INFO] [2/6] 히어로 선발 완료 - 5개 채널
+2026-04-20 16:18:52 [INFO] [3/6] 히어로 상세 파일 생성 시작
+2026-04-20 16:18:53 [INFO]   [naver] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\naver.xlsx
+2026-04-20 16:18:53 [INFO]   [coupang] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\coupang.xlsx
+2026-04-20 16:18:53 [INFO]   [oliveyoung] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\oliveyoung.xlsx
+2026-04-20 16:18:53 [INFO]   [kakao] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\kakao.xlsx
+2026-04-20 16:18:53 [INFO]   [daiso] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\daiso.xlsx
+2026-04-20 16:18:53 [INFO] [3/6] 상세 파일 생성 완료 - 5개 채널
+2026-04-20 16:18:53 [INFO] [4/6] 히어로 제품 리뷰 크롤링 시작
+2026-04-20 16:18:53 [INFO] [naver] 리뷰 크롤링 시작: https://smartstore.naver.com/malldaewoong/products/12727841644
+2026-04-20 16:18:55 [INFO] [naver] 쿠키 로드 완료
+2026-04-20 16:20:15 [INFO] [naver] 리뷰전체보기 클릭
+2026-04-20 16:22:17 [INFO] [naver] 리뷰 1133건 저장 완료
+2026-04-20 16:22:17 [INFO] [coupang] 셀렉터 미설정, 건너뜀
+2026-04-20 16:22:17 [INFO] [oliveyoung] 셀렉터 미설정, 건너뜀
+2026-04-20 16:22:17 [INFO] [kakao] 셀렉터 미설정, 건너뜀
+2026-04-20 16:22:17 [INFO] [daiso] 셀렉터 미설정, 건너뜀
+2026-04-20 16:22:17 [INFO] [4/6] 리뷰 크롤링 완료
+2026-04-20 16:22:18 [INFO] [5/6] 히어로 카드 HTML 생성 시작
+2026-04-20 16:22:18 [INFO] [HERO CARD] 2026년 04월
+2026-04-20 16:22:18 [ERROR]   히어로 카드 생성 실패: 월간 파일 없음: H:\내 드라이브\페르소나\01_RANKING_NAM\data\report\2026_04_monthly.xlsx
+2026-04-20 16:22:18 [INFO]   순위 추이 카드 HTML 생성 시작
+2026-04-20 16:22:18 [INFO] [TREND MONTHLY] 2026년 04월
+2026-04-20 16:22:18 [ERROR]   추이 카드 생성 실패: 월간 파일 없음: H:\내 드라이브\페르소나\01_RANKING_NAM\data\report\2026_04_monthly.xlsx
+2026-04-20 16:22:18 [INFO] [5/6] 카드 HTML 생성 완료
+2026-04-20 16:22:18 [INFO] [6/6] PNG 변환 시작
+2026-04-20 16:22:18 [ERROR] [6/6] PNG 변환 실패: [WinError 3] 지정된 경로를 찾을 수 없습니다: 'H:\\내 드라이브\\페르소나\\01_RANKING_NAM\\data\\output\\2026_04_monthly'
+2026-04-20 16:22:18 [INFO] =======================================================
+2026-04-20 16:22:18 [INFO]   파이프라인 완료 - 성공 0개 / 실패 3개
+2026-04-20 16:22:18 [INFO]   결과물: data/output/2026_04_monthly/
+2026-04-20 16:22:18 [INFO] =======================================================
+2026-04-20 16:22:18 [INFO] ensuring close
+2026-04-22 12:03:13 [INFO] =======================================================
+2026-04-22 12:03:13 [INFO]   월간 히어로 파이프라인 시작 - 2026년 04월
+2026-04-22 12:03:13 [INFO] =======================================================
+2026-04-22 12:03:13 [INFO] [1/6] 월간 데이터 집계 시작
+2026-04-22 12:03:17 [INFO] [1/6] 집계 완료
+2026-04-22 12:03:17 [INFO] [2/6] 히어로 제품 선발 시작
+2026-04-22 12:03:20 [INFO] [2/6] 히어로 선발 완료 - 5개 채널
+2026-04-22 12:03:20 [INFO] [3/6] 히어로 상세 파일 생성 시작
+2026-04-22 12:03:20 [ERROR] [3/6] 상세 파일 생성 실패: [Errno 13] Permission denied: 'H:\\내 드라이브\\페르소나\\01_RANKING_NAM\\data\\hero\\2026_04\\naver.xlsx'
+2026-04-22 15:25:14 [INFO] =======================================================
+2026-04-22 15:25:14 [INFO]   월간 히어로 파이프라인 시작 - 2026년 04월
+2026-04-22 15:25:14 [INFO] =======================================================
+2026-04-22 15:25:14 [INFO] [1/6] 월간 데이터 집계 시작
+2026-04-22 15:25:18 [INFO] [1/6] 집계 완료
+2026-04-22 15:25:18 [INFO] [2/6] 히어로 제품 선발 시작
+2026-04-22 15:25:21 [INFO] [2/6] 히어로 선발 완료 - 5개 채널
+2026-04-22 15:25:21 [INFO] [3/6] 히어로 상세 파일 생성 시작
+2026-04-22 15:25:22 [INFO]   [naver] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\naver.xlsx
+2026-04-22 15:25:22 [INFO]   [coupang] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\coupang.xlsx
+2026-04-22 15:25:22 [INFO]   [oliveyoung] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\oliveyoung.xlsx
+2026-04-22 15:25:22 [INFO]   [kakao] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\kakao.xlsx
+2026-04-22 15:25:22 [INFO]   [daiso] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\daiso.xlsx
+2026-04-22 15:25:22 [INFO] [3/6] 상세 파일 생성 완료 - 5개 채널
+2026-04-22 15:25:22 [INFO] [4/6] 히어로 제품 리뷰 크롤링 시작
+2026-04-22 15:25:22 [INFO] [naver] 리뷰 크롤링 시작: https://smartstore.naver.com/malldaewoong/products/12727841644
+2026-04-22 15:25:25 [INFO] [naver] 쿠키 로드 완료
+2026-04-22 15:25:41 [ERROR] [naver] 리뷰 크롤링 오류: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=147.0.7727.102)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6bd6829c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff6bd3aa0d0+14e90]
+	chromedriver!(No symbol) [0x7ff6bd10db2d]
+	chromedriver!(No symbol) [0x7ff6bd0e4322]
+	chromedriver!(No symbol) [0x7ff6bd196e86]
+	chromedriver!(No symbol) [0x7ff6bd1b3482]
+	chromedriver!(No symbol) [0x7ff6bd159298]
+	chromedriver!(No symbol) [0x7ff6bd15a183]
+	chromedriver!GetHandleVerifier [0x7ff6bd6ade0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff6bd6a8588+313348]
+	chromedriver!GetHandleVerifier [0x7ff6bd6c9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff6bd3c6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff6bd3cfacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff6bd3b3634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff6bd3b37e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff6bd397e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffdb58fe8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdb666c3fc+2c]
+
+2026-04-22 15:25:41 [WARNING] [naver] 수집된 리뷰 0건 — 쿠키 만료 또는 봇 차단 가능성. 쿠키 갱신: python crawl_reviews.py --save-cookies naver
+2026-04-22 15:25:41 [INFO] [naver] 리뷰 0건 저장 완료
+2026-04-22 15:25:41 [INFO] [coupang] 셀렉터 미설정, 건너뜀
+2026-04-22 15:25:41 [INFO] [oliveyoung] 셀렉터 미설정, 건너뜀
+2026-04-22 15:25:41 [INFO] [kakao] 셀렉터 미설정, 건너뜀
+2026-04-22 15:25:41 [INFO] [daiso] 셀렉터 미설정, 건너뜀
+2026-04-22 15:25:41 [INFO] [4/6] 리뷰 크롤링 완료
+2026-04-22 15:25:41 [INFO] ensuring close
+2026-04-22 15:28:24 [INFO] =======================================================
+2026-04-22 15:28:24 [INFO]   월간 히어로 파이프라인 시작 - 2026년 04월
+2026-04-22 15:28:24 [INFO] =======================================================
+2026-04-22 15:28:24 [INFO] [1/6] 월간 데이터 집계 시작
+2026-04-22 15:28:28 [INFO] [1/6] 집계 완료
+2026-04-22 15:28:28 [INFO] [2/6] 히어로 제품 선발 시작
+2026-04-22 15:28:30 [INFO] [2/6] 히어로 선발 완료 - 5개 채널
+2026-04-22 15:28:30 [INFO] [3/6] 히어로 상세 파일 생성 시작
+2026-04-22 15:28:31 [INFO]   [naver] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\naver.xlsx
+2026-04-22 15:28:31 [INFO]   [coupang] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\coupang.xlsx
+2026-04-22 15:28:31 [INFO]   [oliveyoung] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\oliveyoung.xlsx
+2026-04-22 15:28:31 [INFO]   [kakao] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\kakao.xlsx
+2026-04-22 15:28:31 [INFO]   [daiso] H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_04\daiso.xlsx
+2026-04-22 15:28:31 [INFO] [3/6] 상세 파일 생성 완료 - 5개 채널
+2026-04-22 15:28:31 [INFO] [4/6] 리뷰 크롤링 건너뜀 (--skip-reviews)
+2026-04-22 15:50:14 [INFO] [naver] 브라우저에서 로그인 후 Enter를 누르세요...
+2026-04-22 15:50:40 [INFO] [naver] 쿠키 저장 완료: H:\내 드라이브\페르소나\01_RANKING_NAM\monthly\cookies\naver.pkl
+2026-04-22 15:50:41 [INFO] ensuring close
+2026-04-22 15:51:21 [INFO] [naver] 파일 없음, 건너뜀: H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_03\naver.xlsx
+2026-04-22 15:51:21 [INFO] [coupang] 파일 없음, 건너뜀: H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_03\coupang.xlsx
+2026-04-22 15:51:21 [INFO] [oliveyoung] 파일 없음, 건너뜀: H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_03\oliveyoung.xlsx
+2026-04-22 15:51:21 [INFO] [kakao] 파일 없음, 건너뜀: H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_03\kakao.xlsx
+2026-04-22 15:51:21 [INFO] [daiso] 파일 없음, 건너뜀: H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_03\daiso.xlsx
+2026-04-22 15:51:45 [INFO] [naver] 리뷰 크롤링 시작: https://smartstore.naver.com/malldaewoong/products/12727841644
+2026-04-22 15:51:48 [INFO] [naver] 쿠키 로드 완료
+2026-04-22 15:52:21 [ERROR] [naver] 리뷰전체보기 버튼 처리 실패: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7778629c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff77758a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7772edb2d]
+	chromedriver!(No symbol) [0x7ff777346b9e]
+	chromedriver!(No symbol) [0x7ff777346eac]
+	chromedriver!(No symbol) [0x7ff777396fe7]
+	chromedriver!(No symbol) [0x7ff777393b9b]
+	chromedriver!(No symbol) [0x7ff777339298]
+	chromedriver!(No symbol) [0x7ff77733a183]
+	chromedriver!GetHandleVerifier [0x7ff77788de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff777888588+313348]
+	chromedriver!GetHandleVerifier [0x7ff7778a9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff7775a6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff7775afacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff777593634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff7775937e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff777577e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ffdb58fe8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffdb666c3fc+2c]
+
+2026-04-22 15:52:21 [WARNING] [naver] 수집된 리뷰 0건 — 쿠키 만료 또는 봇 차단 가능성. 쿠키 갱신: python crawl_reviews.py --save-cookies naver
+2026-04-22 15:52:21 [INFO] [naver] 리뷰 0건 저장 완료
+2026-04-22 15:52:21 [INFO] [coupang] 셀렉터 미설정, 건너뜀
+2026-04-22 15:52:21 [INFO] [oliveyoung] 셀렉터 미설정, 건너뜀
+2026-04-22 15:52:21 [INFO] [kakao] 셀렉터 미설정, 건너뜀
+2026-04-22 15:52:21 [INFO] [daiso] 셀렉터 미설정, 건너뜀
+2026-04-22 15:52:21 [INFO] ensuring close
+2026-04-22 16:07:14 [INFO] [naver] 파일 없음, 건너뜀: H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_03\naver.xlsx
+2026-04-22 16:07:14 [INFO] [coupang] 파일 없음, 건너뜀: H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_03\coupang.xlsx
+2026-04-22 16:07:14 [INFO] [oliveyoung] 파일 없음, 건너뜀: H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_03\oliveyoung.xlsx
+2026-04-22 16:07:14 [INFO] [kakao] 파일 없음, 건너뜀: H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_03\kakao.xlsx
+2026-04-22 16:07:14 [INFO] [daiso] 파일 없음, 건너뜀: H:\내 드라이브\페르소나\01_RANKING_NAM\data\hero\2026_03\daiso.xlsx
+2026-04-22 16:07:54 [INFO] [naver] 리뷰 크롤링 시작: https://smartstore.naver.com/malldaewoong/products/12727841644
+2026-04-22 16:07:56 [INFO] [naver] 쿠키 로드 완료
+2026-04-22 16:09:00 [INFO] [naver] 리뷰전체보기 클릭
+2026-04-22 16:09:03 [WARNING] [naver] 리뷰 0건 — 쿠키 만료 또는 봇 차단 가능성
+2026-04-22 16:09:49 [INFO] [naver] 리뷰전체보기 클릭
+2026-04-22 16:10:27 [ERROR] [naver] reviews 시트 저장 실패: [Errno 13] Permission denied: 'H:\\내 드라이브\\페르소나\\01_RANKING_NAM\\data\\hero\\2026_04\\naver.xlsx'
+2026-04-22 16:10:27 [INFO] [coupang] 셀렉터 미설정, 건너뜀
+2026-04-22 16:10:27 [INFO] [oliveyoung] 셀렉터 미설정, 건너뜀
+2026-04-22 16:10:27 [INFO] [kakao] 셀렉터 미설정, 건너뜀
+2026-04-22 16:10:27 [INFO] [daiso] 셀렉터 미설정, 건너뜀
+2026-04-22 16:10:27 [INFO] ensuring close
+2026-04-22 16:10:52 [INFO] [naver] 리뷰 크롤링 시작: https://smartstore.naver.com/malldaewoong/products/12727841644
+2026-04-22 16:10:55 [INFO] [naver] 쿠키 로드 완료
+2026-04-22 16:11:23 [INFO] [naver] 리뷰전체보기 클릭
+2026-04-22 16:12:02 [INFO] [naver] 리뷰 346건 저장 완료
+2026-04-22 16:12:02 [INFO] [coupang] 셀렉터 미설정, 건너뜀
+2026-04-22 16:12:02 [INFO] [oliveyoung] 셀렉터 미설정, 건너뜀
+2026-04-22 16:12:02 [INFO] [kakao] 셀렉터 미설정, 건너뜀
+2026-04-22 16:12:02 [INFO] [daiso] 셀렉터 미설정, 건너뜀
+2026-04-22 16:12:02 [INFO] ensuring close

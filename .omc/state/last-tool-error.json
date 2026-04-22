@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd \\\"H:/내 드라이브/페르소나/01_RANKING_NAM\\\" && python monthly/aggregate.py --month 2026-04 2>&1\",\"description\":\"aggregate.py 실행 테스트\"}",
-  "error": "Exit code 1\nTraceback (most recent call last):\r\n  File \"H:\\�� ����̺�\\�丣�ҳ�\\01_RANKING_NAM\\monthly\\aggregate.py\", line 166, in <module>\r\n    run(y, m)\r\n  File \"H:\\�� ����̺�\\�丣�ҳ�\\01_RANKING_NAM\\monthly\\aggregate.py\", line 147, in run\r\n    print(f\"  [{channel}] �Ϸ� \\u2014 {len(stats_df)}�� ��ǰ, {daily_df['date'].nunique()}��\")\r\nUnicodeEncodeError: 'cp949' codec can't encode character '\\u2014' in position 13: illegal multibyte sequence",
-  "timestamp": "2026-04-17T08:33:33.630Z",
+  "tool_input_preview": "{\"command\":\"cd \\\"H:\\\\내 드라이브\\\\페르소나\\\\01_RANKING_NAM\\\\generate\\\" && python generate_html_review_summary.py --month 2026-04 2>&1\",\"description\":\"리뷰 써머리 HTML 생성 테스트\"}",
+  "error": "Exit code 1\n16:22:05 [INFO] [naver] ���� �Ϸ�: ../data/output\\2026_04_monthly\\review_summary_naver.html\r\n16:22:05 [INFO] [coupang] ���� �Ϸ�: ../data/output\\2026_04_monthly\\review_summary_coupang.html\r\n16:22:05 [INFO] [daiso] ���� �Ϸ�: ../data/output\\2026_04_monthly\\review_summary_daiso.html\r\n16:22:05 [INFO] [kakao] ���� �Ϸ�: ../data/output\\2026_04_monthly\\review_summary_kakao.html\r\nTraceback (most recent call last):\r\n  File \"H:\\�� ����̺�\\�丣�ҳ�\\01_RANKING_NAM\\generate\\generate_html_review_summary....",
+  "timestamp": "2026-04-22T07:22:06.469Z",
   "retry_count": 1
 }

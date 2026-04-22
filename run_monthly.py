@@ -3,10 +3,12 @@ run_monthly.py
 ---------------
 월간 히어로 제품 파이프라인 진입점
 
-  1단계: 월간 집계    (monthly/aggregate.py)
-  2단계: 히어로 선발  (monthly/hero.py)
-  3단계: 카드 HTML    (generate/generate_html_hero.py, generate_html_trend_monthly.py)
-  4단계: PNG 변환     (generate/html2png.py)
+  1단계: 월간 집계          (monthly/aggregate.py)
+  2단계: 히어로 선발        (monthly/hero.py)
+  3단계: 히어로 상세 파일   (monthly/export.py)
+  4단계: 리뷰 크롤링        (monthly/crawl_reviews.py)
+  5단계: 카드 HTML          (generate/generate_html_hero.py, generate_html_trend_monthly.py)
+  6단계: PNG 변환           (generate/html2png.py)
 
 사용법:
     python run_monthly.py                       # 이번 달 전체 실행
@@ -15,6 +17,7 @@ run_monthly.py
     python run_monthly.py --skip-hero           # 히어로 선발 건너뜀
     python run_monthly.py --skip-cards          # 카드 생성 건너뜀
     python run_monthly.py --skip-png            # PNG 변환 건너뜀
+    python run_monthly.py --skip-reviews        # 리뷰 크롤링 건너뜀
     python run_monthly.py --account my_account  # 인스타그램 계정명 지정
 """
 
@@ -49,6 +52,7 @@ sys.path.insert(0, str(GENERATE_DIR))
 import aggregate
 import hero
 import export
+import crawl_reviews
 
 
 # ──────────────────────────────────────────────
@@ -64,6 +68,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--skip-export",    action="store_true",   help="히어로 상세 파일 생성 건너뜀")
     parser.add_argument("--skip-cards",     action="store_true",   help="카드 HTML 생성 건너뜀")
     parser.add_argument("--skip-png",       action="store_true",   help="PNG 변환 건너뜀")
+    parser.add_argument("--skip-reviews",   action="store_true",   help="리뷰 크롤링 건너뜀")
     return parser.parse_args()
 
 
@@ -94,47 +99,58 @@ def main() -> None:
 
     # ── 1단계: 월간 집계
     if not args.skip_aggregate:
-        logger.info("[1/5] 월간 데이터 집계 시작")
+        logger.info("[1/6] 월간 데이터 집계 시작")
         try:
             aggregate.run(year, month)
-            logger.info("[1/5] 집계 완료")
+            logger.info("[1/6] 집계 완료")
         except Exception as e:
-            logger.error(f"[1/5] 집계 실패: {e}")
+            logger.error(f"[1/6] 집계 실패: {e}")
             sys.exit(1)
     else:
-        logger.info("[1/5] 집계 건너뜀 (--skip-aggregate)")
+        logger.info("[1/6] 집계 건너뜀 (--skip-aggregate)")
 
     # ── 2단계: 히어로 선발
     if not args.skip_hero:
-        logger.info("[2/5] 히어로 제품 선발 시작")
+        logger.info("[2/6] 히어로 제품 선발 시작")
         try:
             heroes = hero.run(year, month)
-            logger.info(f"[2/5] 히어로 선발 완료 - {len(heroes)}개 채널")
+            logger.info(f"[2/6] 히어로 선발 완료 - {len(heroes)}개 채널")
         except Exception as e:
-            logger.error(f"[2/5] 히어로 선발 실패: {e}")
+            logger.error(f"[2/6] 히어로 선발 실패: {e}")
             sys.exit(1)
     else:
-        logger.info("[2/5] 히어로 선발 건너뜀 (--skip-hero)")
+        logger.info("[2/6] 히어로 선발 건너뜀 (--skip-hero)")
 
     # ── 3단계: 히어로 상세 파일 생성
     if not args.skip_export:
-        logger.info("[3/5] 히어로 상세 파일 생성 시작")
+        logger.info("[3/6] 히어로 상세 파일 생성 시작")
         try:
             results = export.run(year, month)
             for ch, path in results.items():
                 logger.info(f"  [{ch}] {path}")
-            logger.info(f"[3/5] 상세 파일 생성 완료 - {len(results)}개 채널")
+            logger.info(f"[3/6] 상세 파일 생성 완료 - {len(results)}개 채널")
         except Exception as e:
-            logger.error(f"[3/5] 상세 파일 생성 실패: {e}")
+            logger.error(f"[3/6] 상세 파일 생성 실패: {e}")
             sys.exit(1)
     else:
-        logger.info("[3/5] 상세 파일 생성 건너뜀 (--skip-export)")
+        logger.info("[3/6] 상세 파일 생성 건너뜀 (--skip-export)")
 
-    # ── 4단계: 카드 HTML 생성
+    # ── 4단계: 리뷰 크롤링
+    if not args.skip_reviews:
+        logger.info("[4/6] 히어로 제품 리뷰 크롤링 시작")
+        try:
+            crawl_reviews.run(year, month)
+            logger.info("[4/6] 리뷰 크롤링 완료")
+        except Exception as e:
+            logger.error(f"[4/6] 리뷰 크롤링 실패: {e}")
+    else:
+        logger.info("[4/6] 리뷰 크롤링 건너뜀 (--skip-reviews)")
+
+    # ── 5단계: 카드 HTML 생성
     if not args.skip_cards:
         import generate_html_hero
         import generate_html_trend_monthly
-        logger.info("[4/5] 히어로 카드 HTML 생성 시작")
+        logger.info("[5/6] 히어로 카드 HTML 생성 시작")
         try:
             r = generate_html_hero.run(
                 year=year, month=month,
@@ -162,24 +178,24 @@ def main() -> None:
             logger.error(f"  추이 카드 생성 실패: {e}")
             total_fail += 1
 
-        logger.info(f"[4/5] 카드 HTML 생성 완료")
+        logger.info(f"[5/6] 카드 HTML 생성 완료")
     else:
-        logger.info("[4/5] 카드 HTML 생성 건너뜀 (--skip-cards)")
+        logger.info("[5/6] 카드 HTML 생성 건너뜀 (--skip-cards)")
 
-    # ── 5단계: PNG 변환
+    # ── 6단계: PNG 변환
     if not args.skip_png:
         import html2png
-        logger.info("[5/5] PNG 변환 시작")
+        logger.info("[6/6] PNG 변환 시작")
         try:
             r = html2png.run_folder(str(monthly_folder))
             total_success += r["success"]
             total_fail    += r["fail"]
-            logger.info(f"[5/5] PNG 변환 완료")
+            logger.info(f"[6/6] PNG 변환 완료")
         except Exception as e:
-            logger.error(f"[5/5] PNG 변환 실패: {e}")
+            logger.error(f"[6/6] PNG 변환 실패: {e}")
             total_fail += 1
     else:
-        logger.info("[5/5] PNG 변환 건너뜀 (--skip-png)")
+        logger.info("[6/6] PNG 변환 건너뜀 (--skip-png)")
 
     # ── 최종 결과
     logger.info("=" * 55)

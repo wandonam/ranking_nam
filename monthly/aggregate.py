@@ -97,6 +97,7 @@ def compute_stats(daily_df: pd.DataFrame, channel: str) -> pd.DataFrame:
             "brand":       g["brand"].iloc[-1],
             "product":     g["product"].iloc[-1],
             "price":       g["price"].iloc[-1],
+            "url":         g["url"].iloc[-1] if "url" in g.columns else "",
             "appearances": len(g),
             "total_weeks": total_weeks,
             "avg_rank":    round(g["rank"].mean(), 2),

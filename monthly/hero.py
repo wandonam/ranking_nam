@@ -142,7 +142,13 @@ def run(year: int, month: int) -> dict:
                 print(f"  [{channel}] stats 시트 없음, 건너뜀")
                 continue
 
-            scored_df = compute_scores(stats_df, channel)
+            # 월 중 한 번이라도 100위 이내에 든 제품만 대상 (이미지 존재 보장)
+            eligible_df = stats_df[stats_df["best_rank"] <= 100]
+            if eligible_df.empty:
+                print(f"  [{channel}] best_rank <= 100 제품 없음 — 전체 대상 fallback")
+                eligible_df = stats_df
+
+            scored_df = compute_scores(eligible_df, channel)
             hero      = scored_df.iloc[0]
             heroes[channel] = hero.to_dict()
 

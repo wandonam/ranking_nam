@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"ls \\\"H:\\\\내 드라이브\\\\페르소나\\\\01_RANKING_NAM\\\\data\\\\output\\\\2026_04_monthly\\\\\\\" | grep hero\"}",
+  "error": "Exit code 2\n/usr/bin/bash: eval: line 1: unexpected EOF while looking for matching `\"'",
+  "timestamp": "2026-04-20T09:46:04.584Z",
+  "retry_count": 1
+}

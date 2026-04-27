@@ -327,6 +327,7 @@ def build_chart_buyer_profile(profile: dict, channel_color: str) -> str:
     bars = ax1.barh(labels[::-1], values[::-1], color=channel_color, height=0.5, alpha=0.85)
     ax1.set_xlim(0, max(values) * 1.4 if values else 100)
     ax1.set_xticklabels([])
+    ax1.set_yticks(range(len(labels)))
     ax1.set_yticklabels(labels[::-1], fontsize=18, fontweight="bold")
     for bar, val in zip(bars, values[::-1]):
         ax1.text(bar.get_width() + 1, bar.get_y() + bar.get_height() / 2,
@@ -341,6 +342,7 @@ def build_chart_buyer_profile(profile: dict, channel_color: str) -> str:
     bars2 = ax2.barh(t_labels[::-1], t_values[::-1], color=[channel_color, "#CCCCCC"], height=0.5, alpha=0.85)
     ax2.set_xlim(0, max(t_values) * 1.4 if t_values else 100)
     ax2.set_xticklabels([])
+    ax2.set_yticks(range(len(t_labels)))
     ax2.set_yticklabels(t_labels[::-1], fontsize=18, fontweight="bold")
     for bar, val in zip(bars2, t_values[::-1]):
         ax2.text(bar.get_width() + 1, bar.get_y() + bar.get_height() / 2,
@@ -356,6 +358,7 @@ def build_chart_buyer_profile(profile: dict, channel_color: str) -> str:
     bars3 = ax3.barh(m_labels[::-1], m_values[::-1], color=colors3[::-1], height=0.5, alpha=0.85)
     ax3.set_xlim(0, max(m_values) * 1.4 if m_values else 100)
     ax3.set_xticklabels([])
+    ax3.set_yticks(range(len(m_labels)))
     ax3.set_yticklabels(m_labels[::-1], fontsize=18, fontweight="bold")
     for bar, val in zip(bars3, m_values[::-1]):
         ax3.text(bar.get_width() + 1, bar.get_y() + bar.get_height() / 2,
@@ -386,6 +389,7 @@ def build_chart_flavor(flavors: dict) -> str:
     bars = ax.barh(labels[::-1], pcts[::-1], color=colors[::-1], height=0.5, alpha=0.9)
     ax.set_xlim(0, max(pcts) * 1.4)
     ax.set_xticklabels([])
+    ax.set_yticks(range(len(labels)))
     ax.set_yticklabels(labels[::-1], fontsize=20, fontweight="bold")
 
     for bar, pct, cnt in zip(bars, pcts[::-1], values[::-1]):

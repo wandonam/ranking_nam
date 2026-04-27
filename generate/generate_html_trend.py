@@ -38,7 +38,7 @@ TREND_CHANNEL_CONFIG = {
         "image_path_template": "../data/raw/naver/{today}/{rank:02d}",
         "hot_sheet":           "naver_hot",
         "down_sheet":          "naver_down",
-        "hot_filename":        "01_naver_hot",
+        "cool_filename":        "01_naver_cool",
         "down_filename":       "01_naver_down",
     },
     "coupang": {
@@ -47,7 +47,7 @@ TREND_CHANNEL_CONFIG = {
         "image_path_template": "../data/raw/coupang/{today}/{rank:02d}",
         "hot_sheet":           "coupang_hot",
         "down_sheet":          "coupang_down",
-        "hot_filename":        "02_coupang_hot",
+        "cool_filename":        "02_coupang_cool",
         "down_filename":       "02_coupang_down",
     },
     "oliveyoung": {
@@ -56,7 +56,7 @@ TREND_CHANNEL_CONFIG = {
         "image_path_template": "../data/raw/oliveyoung/{today}/{rank:02d}",
         "hot_sheet":           "oliveyoung_hot",
         "down_sheet":          "oliveyoung_down",
-        "hot_filename":        "03_oliveyoung_hot",
+        "cool_filename":        "03_oliveyoung_cool",
         "down_filename":       "03_oliveyoung_down",
     },
     "kakao": {
@@ -65,7 +65,7 @@ TREND_CHANNEL_CONFIG = {
         "image_path_template": "../data/raw/kakao/{today}/{rank:02d}",
         "hot_sheet":           "kakao_hot",
         "down_sheet":          "kakao_down",
-        "hot_filename":        "04_kakao_hot",
+        "cool_filename":        "04_kakao_cool",
         "down_filename":       "04_kakao_down",
     },
     "daiso": {
@@ -74,7 +74,7 @@ TREND_CHANNEL_CONFIG = {
         "image_path_template": "../data/raw/daiso/{today}/{rank:02d}",
         "hot_sheet":           "daiso_hot",
         "down_sheet":          "daiso_down",
-        "hot_filename":        "05_daiso_hot",
+        "cool_filename":        "05_daiso_cool",
         "down_filename":       "05_daiso_down",
     },
 }
@@ -288,7 +288,7 @@ def run(today: str, output_dir: str, instagram_account: str) -> dict[str, int]:
 
     for channel_key, cfg in TREND_CHANNEL_CONFIG.items():
         for trend_type, sheet_key, filename_key in [
-            ("hot",  f"{channel_key}_hot",  "hot_filename"),
+            ("hot",  f"{channel_key}_hot",  "cool_filename"),
             ("down", f"{channel_key}_down", "down_filename"),
         ]:
             df       = sheets[sheet_key]

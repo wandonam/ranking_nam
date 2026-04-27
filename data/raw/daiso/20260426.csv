@@ -1,0 +1,505 @@
+﻿date,code,rank,brand,product,price,star,review,url,period_ym
+20260426,104515136,1,오뚜기, 오뚜기 맛있는 공깃밥 200 g ,1000,4.9,396,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104515136&recmYn=N,202604
+20260426,600000128,2,대웅제약, 대웅제약 마그네슘 30정 30일분 ,3000,4.8,1752,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128&recmYn=N,202604
+20260426,600000145,3,대웅제약, 대웅제약 rTG 오메가3 30캡슐 30일분 ,5000,4.8,2649,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000145&recmYn=N,202604
+20260426,032640075,4,홀베리, 홀베리 유기농 엑스트라버진 올리브오일 10포 ,5000,4.7,126,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032640075&recmYn=N,202604
+20260426,600000144,5,대웅제약, 대웅제약 코엔자임 Q10 30캡슐 30일분 ,5000,4.8,2253,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000144&recmYn=N,202604
+20260426,982725198,6,미니, 미니 초코룹스 쿠키 40 g ,1000,4.8,850,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=982725198&recmYn=N,202604
+20260426,994852703,7,비비랩, 비비랩 애사비 탱글 포켓 젤리 사과맛 5포 5일분 ,3000,4.8,51,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994852703&recmYn=N,202604
+20260426,994852702,8,비비랩, 비비랩 애사비 탱글 포켓 젤리 파인애플 5포 5일분 ,3000,4.7,58,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994852702&recmYn=N,202604
+20260426,985472642,9,안국약품, 안국약품 콜린 미오이노시톨 4000 10포 ,5000,4.8,519,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=985472642&recmYn=N,202604
+20260426,600000131,10,대웅제약, 대웅제약 바나바잎 추출물 30정 (30일분) ,3000,4.8,1595,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000131&recmYn=N,202604
+20260426,600000136,11,대웅제약, 대웅제약 녹차카테킨 30정 30일분 ,5000,4.8,1273,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000136&recmYn=N,202604
+20260426,032627034,12,자연관, 자연관 이지슬로 엑스트라버진 올리브오일＆레몬 4병 ,5000,4.7,399,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032627034&recmYn=N,202604
+20260426,100308732,13,실카, 실카 초콜릿 위드 아몬드 38 g  ,500,4.8,660,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=100308732&recmYn=N,202604
+20260426,032306205,14,종근당, 종근당 데일리와이즈 글루타치온 PDRN 구미 7일분 ,1000,4.8,13,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306205&recmYn=N,202604
+20260426,600000126,15,대웅제약, 대웅제약 루테인 30정 30일분 ,3000,4.8,1598,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000126&recmYn=N,202604
+20260426,032306206,16,종근당, 종근당 데일리와이즈 아르기닌 구미 7일분 ,1000,4.8,13,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306206&recmYn=N,202604
+20260426,104557041,17,오뚜기, 오뚜기 참깨라면 110 g ,1000,4.9,771,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104557041&recmYn=N,202604
+20260426,600000127,18,대웅제약, 대웅제약 비타민C 30정 30일분 ,5000,4.8,834,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000127&recmYn=N,202604
+20260426,190616329,19,코스모스, 코스모스 두부 과자 110g ,1000,4.7,1863,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=190616329&recmYn=N,202604
+20260426,947020042,20,쫀쫀이, 쫀쫀이 오징어 스틱 30 g ,2000,4.8,326,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=947020042&recmYn=N,202604
+20260426,600000134,21,대웅제약, 대웅제약 밀크씨슬 30정 30일분 ,5000,4.8,1392,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000134&recmYn=N,202604
+20260426,289600582,22,추억의, 추억의 어포 튀각 32 g ,1000,4.8,1153,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600582&recmYn=N,202604
+20260426,928300326,23,일리, 일리 클래식 로스트 12개입 ,3000,4.8,767,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=928300326&recmYn=N,202604
+20260426,025575127,24,[다영, [다영 PICK] 셀트리온 브로멜라인＆알파 CD 30정 15일분 ,3000,4.7,47,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=025575127&recmYn=N,202604
+20260426,002901705,25,멜로, 멜로 빅 머쉬멜로우 100g ,1000,4.9,565,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=002901705&recmYn=N,202604
+20260426,600651649,26,유한양행, 유한양행 장건강 생유산균 30캡슐 30일분 ,5000,4.8,89,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651649&recmYn=N,202604
+20260426,126800650,27,동아, 동아 이브로 칠리콘 스낵 75 g ,1000,4.7,900,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=126800650&recmYn=N,202604
+20260426,120420584,28,청우, 청우 쫀득 초코칩 커피 맛 90 g ,1500,4.7,1260,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=120420584&recmYn=N,202604
+20260426,600000204,29,대웅제약, 대웅제약 마그네슘 샷 25ml x 5병 5일분 ,5000,4.9,309,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000204&recmYn=N,202604
+20260426,947020016,30,청해, 청해 오찡어 소면 30 g ,2000,4.8,675,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=947020016&recmYn=N,202604
+20260426,139213437,31,CJ, CJ 카무트 곡물과채콤부 화사 효소 10포 10일분 ,5000,4.8,540,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=139213437&recmYn=N,202604
+20260426,928300328,32,일리, 일리 클래식 로스트 디카페인 1g X 12개입 ,3000,4.8,366,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=928300328&recmYn=N,202604
+20260426,106286189,33,롯데, 롯데 꼬깔콘 군옥수수맛 52 g ,1000,4.9,188,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106286189&recmYn=N,202604
+20260426,613602124,34,자연관, 자연관 이뮨 멀티비타민 미네랄 4병 ,5000,4.8,810,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602124&recmYn=N,202604
+20260426,919157053,35,휴럼, 휴럼 하루한포 6년근 고려홍삼 5포 5일분 ,2000,4.8,75,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157053&recmYn=N,202604
+20260426,032306203,36,종근당, 종근당 데일리와이즈 초임계 알티지 오메가3 12캡슐 12일분 ,2000,4.8,28,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306203&recmYn=N,202604
+20260426,105200406,37,고구마, 고구마 츄 60 g ,2000,4.7,442,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=105200406&recmYn=N,202604
+20260426,610910678,38,동국제약, 동국제약 혈당케어＆유산균 30캡슐 ,5000,4.8,528,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910678&recmYn=N,202604
+20260426,610910677,39,동국제약, 동국제약 이너케어＆유산균 30캡슐 ,5000,4.8,926,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910677&recmYn=N,202604
+20260426,925667463,40,허쉬, 허쉬 초콜릿 칩 미니 쿠키 50 g ,1000,4.7,1028,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925667463&recmYn=N,202604
+20260426,949558093,41,도드람, 도드람 고기 찍먹 양념 세트 72 g ,1000,4.8,353,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=949558093&recmYn=N,202604
+20260426,600000139,42,대웅제약, 대웅제약 쏘팔메토 옥타코사놀 30캡슐 30일분 ,5000,4.8,819,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000139&recmYn=N,202604
+20260426,109446260,43,휘오, 휘오 순수 500 ml ,500,4.8,125,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=109446260&recmYn=N,202604
+20260426,032306207,44,종근당, 종근당 데일리와이즈 포스트바이오틱스 구미 7일분 ,1000,,0,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306207&recmYn=N,202604
+20260426,032306200,45,종근당, 종근당 데일리와이즈 멀티비타민 미네랄 12정 12일분 ,2000,4.9,10,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306200&recmYn=N,202604
+20260426,947020105,46,청해, 청해 땅콩버터맛 오징어 30g ,2000,4.8,841,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=947020105&recmYn=N,202604
+20260426,600000129,47,대웅제약, 대웅제약 비타민B 30정 30일분 ,3000,4.8,975,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129&recmYn=N,202604
+20260426,600000203,48,대웅제약, 대웅제약 식물성 뉴티지 오메가3 30캡슐 30일분 ,5000,4.7,369,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000203&recmYn=N,202604
+20260426,277534494,49,게리, 게리 치즈 크래커 72 g ,1000,4.8,812,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=277534494&recmYn=N,202604
+20260426,032306208,50,종근당, 종근당 데일리와이즈 푸룬 구미 7일분 ,1000,,0,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306208&recmYn=N,202604
+20260426,104502799,51,진라면, 진라면 스프 5g 10개입 매운맛 ,3000,4.8,581,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104502799&recmYn=N,202604
+20260426,600000148,52,대웅제약, 대웅제약 칼슘 마그네슘 비타민D 60정 30일분 ,5000,4.8,1260,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000148&recmYn=N,202604
+20260426,104557309,53,오뚜기, 오뚜기 스낵면 용기 90 g ,1000,4.8,265,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104557309&recmYn=N,202604
+20260426,032306202,54,종근당, 종근당 데일리와이즈 코엔자임Q10 12캡슐 12일분 ,2000,4.8,16,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306202&recmYn=N,202604
+20260426,106238271,55,롯데, 롯데 쌀로 만든 쌀로별 고소한 맛 62 g ,1000,4.9,127,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106238271&recmYn=N,202604
+20260426,646710533,56,프링글스, 프링글스 오리지널 53 g ,1500,4.8,439,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=646710533&recmYn=N,202604
+20260426,610910777,57,동국제약, 동국제약 비타민D 2000IU 40캡슐 40일분 ,3000,4.9,206,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910777&recmYn=N,202604
+20260426,106201272,58,롯데, 롯데 아몬드 빼빼로 37 g ,1500,4.9,441,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106201272&recmYn=N,202604
+20260426,106224743,59,롯데, 롯데 칙촉 120 g ,2000,4.8,113,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106224743&recmYn=N,202604
+20260426,032306209,60,종근당, 종근당 데일리와이즈 테아닌 구미 7일분 ,1000,,0,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306209&recmYn=N,202604
+20260426,600000133,61,대웅제약, 대웅제약 철분 30정 30일분 ,3000,4.8,902,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000133&recmYn=N,202604
+20260426,591580541,62,종근당건강, 종근당건강 눈건강엔 루테인지아잔틴 ,5000,4.8,674,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580541&recmYn=N,202604
+20260426,190616902,63,코스모스, 코스모스 왕소라형 과자 138 g ,1000,4.7,1031,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=190616902&recmYn=N,202604
+20260426,601618641,64,동화, 동화 바이마그랩 마그네슘 테아닌 5포 5일분 ,3000,4.9,35,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618641&recmYn=N,202604
+20260426,190616519,65,코스모스, 코스모스 버터갈릭 새우칩 56g ,1000,4.8,1581,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=190616519&recmYn=N,202604
+20260426,45173653,66,메이지, 메이지 초코 베이비 32 g ,2000,4.9,577,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=45173653&recmYn=N,202604
+20260426,591580521,67,종근당건강, 종근당건강 락토핏 골드 ,5000,4.8,795,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580521&recmYn=N,202604
+20260426,106286178,68,롯데, 롯데 치토스 스모키바베큐맛 64 g ,1000,4.9,118,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106286178&recmYn=N,202604
+20260426,600651654,69,유한양행, 유한양행 산뜻해질 생유산균 20캡슐 20일분 ,5000,4.8,112,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651654&recmYn=N,202604
+20260426,613602129,70,오브맘, 오브맘 면역＆프로폴리스 하루구미 30일분 ,5000,4.7,391,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602129&recmYn=N,202604
+20260426,968235549,71,안국약품, 안국약품 브이팩 다이어트 유산균 올인원 멀티 비타민 7포 ,5000,4.6,249,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235549&recmYn=N,202604
+20260426,902596192,72,애사비, 애사비 톡 사과 5 g X 10개입 ,3000,4.8,427,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=902596192&recmYn=N,202604
+20260426,613602128,73,오브맘, 오브맘 멀티비타민＆미네랄 하루구미 30일분 ,5000,4.8,312,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602128&recmYn=N,202604
+20260426,100308740,74,실카, 실카 초콜릿 위드 크리스피 36g ,500,4.8,701,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=100308740&recmYn=N,202604
+20260426,611982831,75,안국약품, 안국약품 토비콤 루테인 지아잔틴 미니 30캡슐 ,5000,4.8,625,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=611982831&recmYn=N,202604
+20260426,600000140,76,대웅제약, 대웅제약 맥주효모 비오틴 30정 30일분 ,5000,4.8,632,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000140&recmYn=N,202604
+20260426,938846464,77,이디야, 이디야 비니스트 오리지널 아메리카노 1 g X 12개입 ,2000,4.8,295,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=938846464&recmYn=N,202604
+20260426,111118048,78,크라운, 크라운 빅파이 216 g ,2000,4.8,370,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=111118048&recmYn=N,202604
+20260426,574247432,79,하이디라오, 하이디라오 마라펀 ,2000,4.8,317,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=574247432&recmYn=N,202604
+20260426,104557163,80,오뚜기, 오뚜기 진라면 용기 매운맛 110 g ,1000,4.9,239,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104557163&recmYn=N,202604
+20260426,601618638,81,동화, 동화 부채표쌍화 5포 5일분 ,2000,4.8,40,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618638&recmYn=N,202604
+20260426,601618637,82,동화, 동화 부채표 배도라지쌍화 5포 5일분 ,2000,4.7,59,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618637&recmYn=N,202604
+20260426,919157055,83,휴럼, 휴럼 하루한포 쌍화차 5포 5일분 ,2000,4.7,56,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157055&recmYn=N,202604
+20260426,919157054,84,휴럼, 휴럼 하루한포 구증구포 흑삼제로 5포 5일분 ,2000,4.8,47,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157054&recmYn=N,202604
+20260426,483400937,85,게메즈, 게메즈 에낙 30 g X 4개입 ,2000,4.9,194,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=483400937&recmYn=N,202604
+20260426,027312009,86,딜리노쉬, 딜리노쉬 땅콩버터 5개입 ,5000,4.7,316,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=027312009&recmYn=N,202604
+20260426,113300431,87,민속, 민속 통 육포 35g ,2000,4.8,557,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=113300431&recmYn=N,202604
+20260426,646710535,88,프링글스, 프링글스 사워크림 앤 어니언 53 g ,1500,4.8,587,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=646710535&recmYn=N,202604
+20260426,613602126,89,오브맘, 오브맘 눈건강 루테인 하루구미 30일분 ,5000,4.8,388,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602126&recmYn=N,202604
+20260426,032306204,90,종근당, 종근당 데일리와이즈 밀크씨슬 12정 12일분 ,2000,4.6,11,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306204&recmYn=N,202604
+20260426,225903046,91,롯데, 롯데 크런키 볼 46 g ,1500,4.9,80,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=225903046&recmYn=N,202604
+20260426,947020019,92,청해, 청해 대왕 오징어 롱다리 30 g ,2000,4.6,236,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=947020019&recmYn=N,202604
+20260426,921556550,93,추억, 추억 나눔 뻥튀기 44 g ,1000,4.8,485,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921556550&recmYn=N,202604
+20260426,921556555,94,녹차, 녹차 맛 강냉이 과자 80 g ,1000,4.8,434,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921556555&recmYn=N,202604
+20260426,106286179,95,롯데, 롯데 치토스 매콤달콤맛 64 g ,1000,4.9,138,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106286179&recmYn=N,202604
+20260426,610910679,96,동국제약, 동국제약 리포좀 비타민C 30정 ,5000,4.8,313,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910679&recmYn=N,202604
+20260426,032306211,97,종근당, 종근당 데일리와이즈 알로에 구미 7일분 ,1000,,0,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306211&recmYn=N,202604
+20260426,921556556,98,녹차, 녹차 맛 마카로니 과자 65 g ,1000,4.8,797,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921556556&recmYn=N,202604
+20260426,925667933,99,허쉬, 허쉬 다크초콜릿 아사이＆블루베리 28g ,1000,4.8,409,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925667933&recmYn=N,202604
+20260426,901762097,100,자연관, 자연관 홍삼정 에너타임 10포 ,5000,4.8,490,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=901762097&recmYn=N,202604
+20260426,286314184,101,영진, 영진 비타민D 1000IU 아연 츄어블 12정 ,1000,4.8,88,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314184&recmYn=N,202604
+20260426,600000206,102,대웅제약, 대웅제약 베르베린 500 30정 30일분 ,5000,4.8,194,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000206&recmYn=N,202604
+20260426,155890322,103,움트리, 움트리 쇠고기 볶음고추장 100g ,2000,4.8,647,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=155890322&recmYn=N,202604
+20260426,113300102,104,머거본, 머거본 커피 땅콩 55g ,1000,4.8,506,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=113300102&recmYn=N,202604
+20260426,902596193,105,애사비, 애사비 톡 매실 5 g X 10개입 ,3000,4.8,474,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=902596193&recmYn=N,202604
+20260426,601618642,106,동화, 동화 바이마그랩 마그네슘 식이섬유 5포 5일분 ,3000,4.9,103,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618642&recmYn=N,202604
+20260426,49811353,107,모리나가, 모리나가 라무네 포도당 캔디 29 g ,1000,4.7,539,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=49811353&recmYn=N,202604
+20260426,600132084,108,코피코, 코피코 캔디 100 g 커피 맛 ,1500,4.8,694,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600132084&recmYn=N,202604
+20260426,496300224,109,미고랭, 미고랭 라면 70 g ,1000,4.7,522,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=496300224&recmYn=N,202604
+20260426,120400494,110,청우, 청우 참깨스틱 ,1500,4.9,662,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=120400494&recmYn=N,202604
+20260426,600000130,111,대웅제약, 대웅제약 글루타치온 30정 30일분 ,5000,4.8,875,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000130&recmYn=N,202604
+20260426,221300592,112,셈볼, 셈볼 누가 초코바 ,500,4.8,172,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=221300592&recmYn=N,202604
+20260426,120420547,113,청우, 청우 사르르 버터 쿠키 83 g ,1000,4.7,730,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=120420547&recmYn=N,202604
+20260426,104556003,114,오뚜기, 오뚜기 뿌셔뿌셔 불고기 맛 90 g X 2개입 ,1500,4.8,349,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104556003&recmYn=N,202604
+20260426,942788229,115,광천김, 광천김 재래도시락김(4 gx3봉) ,1000,4.8,307,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=942788229&recmYn=N,202604
+20260426,938846640,116,이디야, 이디야 스페셜 아로마 블렌드 헤이즐넛 향 커피믹스 20개입 ,3000,4.7,379,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=938846640&recmYn=N,202604
+20260426,964455540,117,본죽, 본죽 얼큰 낙지 김치죽 200g ,2000,4.5,621,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=964455540&recmYn=N,202604
+20260426,921556571,118,토마토, 토마토 캔디 40 g ,1000,4.6,287,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921556571&recmYn=N,202604
+20260426,600132083,119,코피코, 코피코 캔디 100 g 카푸치노 맛 ,1500,4.9,509,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600132083&recmYn=N,202604
+20260426,613602131,120,오브맘, 오브맘 비타민C＆E 하루구미 30일분 ,5000,4.8,342,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602131&recmYn=N,202604
+20260426,032306210,121,종근당, 종근당 데일리와이즈 홍삼 구미 7일분 ,1000,,0,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306210&recmYn=N,202604
+20260426,951817120,122,[한정수량, [한정수량 랜덤 스티커 포함] 락피도 티니핑 철분스틱 12포 ,5000,4.9,152,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=951817120&recmYn=N,202604
+20260426,965923424,123,홀베리, 홀베리 유기농 레몬생강즙 10포 ,5000,4.7,113,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=965923424&recmYn=N,202604
+20260426,610910603,124,동국제약, 동국제약 마데카 저분자 콜라겐C ,5000,4.8,298,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910603&recmYn=N,202604
+20260426,104557458,125,오뚜기, 오뚜기 진짬뽕 용기 115 g ,1500,4.9,181,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104557458&recmYn=N,202604
+20260426,964455539,126,본죽, 본죽 보양 삼계죽 200g ,2000,4.8,321,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=964455539&recmYn=N,202604
+20260426,965923433,127,홀베리, 홀베리 유기농 레몬자몽즙 10포 ,5000,4.7,158,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=965923433&recmYn=N,202604
+20260426,600000207,128,대웅제약, 대웅제약 알파CD ZERO 15포 15일분 ,5000,4.8,149,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000207&recmYn=N,202604
+20260426,104502247,129,오뚜기, 오뚜기 보들보들 치즈 볶음면 매운맛 ,1500,4.7,48,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104502247&recmYn=N,202604
+20260426,531910918,130,포테이토, 포테이토 크리스프 바베큐맛 75g ,1000,4.8,746,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=531910918&recmYn=N,202604
+20260426,030086178,131,홀베리, 홀베리 레몬 비타C 500 10포 ,1000,4.9,79,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=030086178&recmYn=N,202604
+20260426,104557457,132,오뚜기, 오뚜기 진짬뽕 미니컵 75 g ,1000,4.9,188,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104557457&recmYn=N,202604
+20260426,099715606,133,드롭, 드롭 어소티드 소프트캔디 75g ,1000,4.9,424,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=099715606&recmYn=N,202604
+20260426,964455538,134,본죽, 본죽 쇠고기죽 200g ,2000,4.7,311,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=964455538&recmYn=N,202604
+20260426,902596194,135,애사비, 애사비 톡 블루베리 5 g X 10개입 ,3000,4.8,246,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=902596194&recmYn=N,202604
+20260426,702591115,136,하타리, 하타리 말키스트 120 g 초콜릿 맛 ,1000,4.7,413,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=702591115&recmYn=N,202604
+20260426,600000138,137,대웅제약, 대웅제약 콜라겐 60정 30일분 ,5000,4.8,648,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000138&recmYn=N,202604
+20260426,252021099,138,추억의, 추억의 차카니 60g ,1000,4.7,483,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=252021099&recmYn=N,202604
+20260426,104529941,139,오뚜기, 오뚜기 옛날 사골곰탕 350 ml ,1000,4.8,212,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104529941&recmYn=N,202604
+20260426,106289354,140,롯데, 롯데 ABC 초코 쿠키 50 g ,1000,4.8,62,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106289354&recmYn=N,202604
+20260426,106201275,141,롯데, 롯데 초코필드 빼빼로 53 g ,1500,4.8,526,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106201275&recmYn=N,202604
+20260426,104568419,142,오뚜기, 오뚜기 컵누들 참깨 라면 ,1500,4.8,134,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104568419&recmYn=N,202604
+20260426,902596195,143,애사비, 애사비 톡 오미자 5 g X 10개입 ,3000,4.8,251,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=902596195&recmYn=N,202604
+20260426,106201270,144,롯데, 롯데 오리지널 빼빼로 54 g ,1500,4.8,272,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106201270&recmYn=N,202604
+20260426,104529032,145,오뚜기, 오뚜기 3분카레 매운맛 200 g ,1500,4.9,191,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104529032&recmYn=N,202604
+20260426,951817117,146,[한정수량, [한정수량 랜덤 스티커 포함] 락피도 티니핑 면역스틱 12포 ,5000,4.9,211,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=951817117&recmYn=N,202604
+20260426,968235547,147,안국약품, 안국약품 브이팩 남성용 올인원 멀티 비타민 7포 ,5000,4.8,195,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235547&recmYn=N,202604
+20260426,286314174,148,닥터블릿, 닥터블릿 푸응 7days 데일리버닝 14포 7일분 ,5000,4.6,101,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314174&recmYn=N,202604
+20260426,289600520,149,철판에, 철판에 메메 잘 구운 쥐포 48g ,2000,4.6,414,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600520&recmYn=N,202604
+20260426,949000068,150,피오디, 피오디 레몬즙 200 ml ,1500,4.9,583,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=949000068&recmYn=N,202604
+20260426,699520507,151,미성, 미성 화이트 캐슬 버터 쿠키 ,1000,4.7,933,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=699520507&recmYn=N,202604
+20260426,600201582,152,광동, 광동 비타500 젤리 48g ,1000,4.8,372,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600201582&recmYn=N,202604
+20260426,120420600,153,청우, 청우 그랑쉘 딸기 ,1500,4.8,215,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=120420600&recmYn=N,202604
+20260426,961794509,154,허니, 허니 버터 아몬드 40g ,1500,4.9,312,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=961794509&recmYn=N,202604
+20260426,289600277,155,빼빼어포, 빼빼어포 오리지널 24g ,1000,4.8,566,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600277&recmYn=N,202604
+20260426,225903045,156,롯데, 롯데 ABC 초코 60 g ,2000,4.9,132,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=225903045&recmYn=N,202604
+20260426,905440019,157,요뽀끼, 요뽀끼 치즈 떡볶이 120 g ,2000,4.7,573,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=905440019&recmYn=N,202604
+20260426,104514115,158,오뚜기, 오뚜기 골드 마요네즈 200 g ,2000,4.8,348,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104514115&recmYn=N,202604
+20260426,289600078,159,호박, 호박 꿀맛나 100g ,1000,4.8,509,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600078&recmYn=N,202604
+20260426,104529401,160,오뚜기, 오뚜기 3분 김치참치덮밥 소스 150 g ,1500,4.8,239,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104529401&recmYn=N,202604
+20260426,289600433,161,옥수수, 옥수수 쫀드기 84g ,1000,4.8,305,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600433&recmYn=N,202604
+20260426,106252142,162,롯데, 롯데 샌드 파인애플 79 g ,1000,4.9,63,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106252142&recmYn=N,202604
+20260426,600651652,163,유한양행, 유한양행 초코맛 생유산균 스틱 20포 20일분 ,5000,4.9,55,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651652&recmYn=N,202604
+20260426,600651650,164,유한양행, 유한양행 비피더스 생유산균 10캡슐 10일분 ,5000,4.8,42,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651650&recmYn=N,202604
+20260426,190616407,165,코스모스, 코스모스 트위스트 128 g ,1000,4.8,575,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=190616407&recmYn=N,202604
+20260426,204942093,166,카스텔크렘, 카스텔크렘 레몬 캔디 50 g ,2000,4.8,650,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=204942093&recmYn=N,202604
+20260426,225903048,167,롯데, 롯데 아몬드 초코 볼 46 g ,2000,4.8,83,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=225903048&recmYn=N,202604
+20260426,113300016,168,머거본, 머거본 알 땅콩 55g ,1000,4.8,380,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=113300016&recmYn=N,202604
+20260426,104520221,169,오뚜기, 오뚜기 사과 식초 500 ml ,1500,4.9,245,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104520221&recmYn=N,202604
+20260426,600000141,170,대웅제약, 대웅제약 블랙마카 60정 30일분 ,5000,4.8,359,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000141&recmYn=N,202604
+20260426,104529031,171,오뚜기, 오뚜기 3분 카레 약간매운맛 200 g ,1500,4.9,189,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104529031&recmYn=N,202604
+20260426,925667934,172,허쉬, 허쉬 다크초콜릿 석류 28g ,1000,4.8,336,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925667934&recmYn=N,202604
+20260426,456322014,173,오라이시, 오라이시 베트남쌀국수컵(71 g) ,1500,4.6,37,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=456322014&recmYn=N,202604
+20260426,106288364,174,롯데, 롯데 크런키 빼빼로 39 g ,1500,4.9,216,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106288364&recmYn=N,202604
+20260426,591580761,175,종근당건강, 종근당건강 락토핏 당케어 ,5000,4.7,339,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580761&recmYn=N,202604
+20260426,600000197,176,대웅제약, 대웅제약 밀크씨슬 에너지샷 5포 ,5000,4.9,123,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000197&recmYn=N,202604
+20260426,225902109,177,롯데, 롯데 자일리톨 알파 용기 48 g ,2000,4.7,51,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=225902109&recmYn=N,202604
+20260426,113300074,178,머거본, 머거본 칼몬드 35 g ,2000,4.8,106,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=113300074&recmYn=N,202604
+20260426,901762093,179,자연관, 자연관 정성담은 배도라지스틱 12포 ,5000,4.8,364,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=901762093&recmYn=N,202604
+20260426,288822321,180,모리나가, 모리나가 오리지널믹스 하이츄 (90 g) ,2000,4.9,35,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=288822321&recmYn=N,202604
+20260426,121609907,181,하리보, 하리보 믹스 사우어 80 g ,1500,4.8,320,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=121609907&recmYn=N,202604
+20260426,104576228,182,진라면, 진라면 스프 5g 10개입 순한맛 ,3000,4.8,219,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104576228&recmYn=N,202604
+20260426,944502305,183,호올스, 호올스 라임 향 캔디 2개입 ,1500,4.8,242,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=944502305&recmYn=N,202604
+20260426,600000142,184,대웅제약, 대웅제약 멀티비타민 미네랄 츄어블 60정 30일분 ,5000,4.8,292,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000142&recmYn=N,202604
+20260426,103900887,185,사조, 사조 팝콘 달콤한 맛 ,1000,4.7,79,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=103900887&recmYn=N,202604
+20260426,613602132,186,오브맘, 오브맘 활력에너지B 하루구미 30일분 ,5000,4.7,198,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602132&recmYn=N,202604
+20260426,932294263,187,참소스, 참소스 275g ,2000,4.9,592,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=932294263&recmYn=N,202604
+20260426,961794805,188,바프, 바프 와사비맛 땅콩 55g ,1000,4.8,388,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=961794805&recmYn=N,202604
+20260426,601618643,189,동화, 동화 바이마그랩 마그네슘B 30정 30일분 ,3000,5.0,64,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618643&recmYn=N,202604
+20260426,600000151,190,대웅제약, 대웅제약 숙취해소 노니샷 5포 5회분 ,5000,4.8,186,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000151&recmYn=N,202604
+20260426,245610601,191,슬림, 슬림 육포 20g  ,2000,4.8,340,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=245610601&recmYn=N,202604
+20260426,027945154,192,바프, 바프 허니 버터 아몬드＆땅콩 35 g ,1000,4.8,168,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=027945154&recmYn=N,202604
+20260426,104529130,193,오뚜기, 오뚜기 3분 짜장 200 g ,1500,4.9,215,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104529130&recmYn=N,202604
+20260426,951817123,194,[한정수량, [한정수량 랜덤 스티커 포함] 락피도 티니핑 빌베리스틱 12포 ,5000,4.9,115,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=951817123&recmYn=N,202604
+20260426,629180143,195,타타와, 타타와 초콜릿 쿠키 60 g ,1000,4.7,483,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=629180143&recmYn=N,202604
+20260426,917054202,196,테일러팜스, 테일러팜스 테일러 푸룬 50 g ,1500,4.7,401,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=917054202&recmYn=N,202604
+20260426,712266874,197,망고스틴, 망고스틴 큐브 젤리 50 g ,1000,4.4,26,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=712266874&recmYn=N,202604
+20260426,613602146,198,자연관, 자연관 바이탈 밀크씨슬＆비타민B 4병 ,5000,4.8,131,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602146&recmYn=N,202604
+20260426,104557028,199,오뚜기, 오뚜기 진라면 매운맛 작은컵 6개입 ,5000,4.9,228,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104557028&recmYn=N,202604
+20260426,925667703,200,오트밀, 오트밀 미니 바이트 40g ,1000,4.9,591,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925667703&recmYn=N,202604
+20260426,289600434,201,호박쫀드기, 호박쫀드기 84g ,1000,4.7,250,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600434&recmYn=N,202604
+20260426,104552631,202,오뚜기, 오뚜기 진비빔면 멀티팩 156 g  X 4개입 ,3000,4.8,159,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104552631&recmYn=N,202604
+20260426,317836739,203,유니콘, 유니콘 롤스 19 g ,500,4.8,106,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=317836739&recmYn=N,202604
+20260426,155890321,204,움트리, 움트리 생와사비 43g ,2000,4.8,533,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=155890321&recmYn=N,202604
+20260426,939534043,205,우주, 우주 추억의 달고나 45g  ,1000,4.7,397,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=939534043&recmYn=N,202604
+20260426,921440142,206,행복한, 행복한 쇼콜라띠에 화이트초코 100 g ,2000,4.9,320,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921440142&recmYn=N,202604
+20260426,120420568,207,청우, 청우 고구마 모나카 65g ,1500,4.6,1001,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=120420568&recmYn=N,202604
+20260426,994953528,208,LG생활건강, LG생활건강 이너뷰 콜라겐 더마스틱 7포 ,5000,4.7,150,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953528&recmYn=N,202604
+20260426,591591440,209,종근당건강, 종근당건강 브이퍼센트 멀티비타민 타우린샷 5포 ,5000,4.8,199,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591591440&recmYn=N,202604
+20260426,154404007,210,밀펑, 밀펑 과자 70 g ,1000,4.7,292,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=154404007&recmYn=N,202604
+20260426,245609079,211,달콤한, 달콤한 직화 육포 25g ,2000,4.8,246,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=245609079&recmYn=N,202604
+20260426,994953535,212,LG생활건강, LG생활건강 이너뷰 다이어트 가르시니아 10포 ,5000,4.7,241,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953535&recmYn=N,202604
+20260426,926940051,213,뉴트리크라프트, 뉴트리크라프트 에너지 포도당 캔디 70 g ,2000,4.8,267,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940051&recmYn=N,202604
+20260426,712266879,214,망고큐브젤리(50, 망고큐브젤리(50 g) ,1000,4.7,689,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=712266879&recmYn=N,202604
+20260426,600000149,215,대웅제약, 대웅제약 MSM 90정 30일분 ,5000,4.8,439,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000149&recmYn=N,202604
+20260426,106200942,216,롯데, 롯데 제크 65 g ,1000,4.9,45,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106200942&recmYn=N,202604
+20260426,613602127,217,오브맘, 오브맘 더채움 비오틴 하루구미 30일분 ,5000,4.9,212,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602127&recmYn=N,202604
+20260426,600651648,218,유한양행, 유한양행 장건강 생유산균 스틱 30포 30일분 ,5000,4.8,66,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651648&recmYn=N,202604
+20260426,913624077,219,오브맘, 오브맘 기억력 그린라이트 30일분 ,5000,4.8,230,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913624077&recmYn=N,202604
+20260426,905440384,220,요뽀끼, 요뽀끼 매콤 까르보나라 떡볶이 120 g ,2000,4.8,554,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=905440384&recmYn=N,202604
+20260426,136080346,221,부르봉, 부르봉 페투치니 포도 50 g ,2000,4.8,113,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=136080346&recmYn=N,202604
+20260426,109436270,222,파워에이드, 파워에이드 마운틴 블라스트 600ml ,1500,4.9,155,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=109436270&recmYn=N,202604
+20260426,802403402,223,쟈뎅, 쟈뎅 바리스타 싱글오리진 브라질 캡슐 커피 미디엄 10개입 ,5000,4.8,78,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=802403402&recmYn=N,202604
+20260426,111533852,224,서울우유, 서울우유 딸기우유 맛 젤리 45 g ,1000,4.4,329,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=111533852&recmYn=N,202604
+20260426,938846466,225,이디야, 이디야 비니스트 스모키 아메리카노 1 g X 12개입 ,2000,4.7,148,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=938846466&recmYn=N,202604
+20260426,942788230,226,광천, 광천 재래 곱창 김 4 g X 3봉 ,1000,4.8,178,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=942788230&recmYn=N,202604
+20260426,924797586,227,초코, 초코 틴인틴 89 g ,1500,4.8,242,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=924797586&recmYn=N,202604
+20260426,113300101,228,머거본, 머거본 꿀땅콩 55g ,1000,4.8,418,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=113300101&recmYn=N,202604
+20260426,106201274,229,롯데, 롯데 초코쿠키 빼빼로 37 g ,1500,4.8,171,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106201274&recmYn=N,202604
+20260426,924797580,230,해츠쟈, 해츠쟈 쏸라펀 마라탕 128 g ,2000,4.6,303,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=924797580&recmYn=N,202604
+20260426,611982830,231,안국약품, 안국약품 토비콤 루테인 지아잔틴 24캡슐 ,5000,4.7,211,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=611982830&recmYn=N,202604
+20260426,302920627,232,트러플, 트러플 초콜릿 피스타치오 향 80 g ,1500,4.7,20,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=302920627&recmYn=N,202604
+20260426,106285941,233,롯데, 롯데 키세스 쿠앤크 31 g ,1000,4.9,45,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106285941&recmYn=N,202604
+20260426,336800055,234,알버트, 알버트 동전 초콜릿 망 55 g ,2000,4.8,50,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=336800055&recmYn=N,202604
+20260426,221024842,235,밀카, 밀카 초코무 40 g ,1000,4.8,126,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=221024842&recmYn=N,202604
+20260426,102495503,236,청정원, 청정원 멸치 쌀국수 92 g ,2000,4.8,304,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=102495503&recmYn=N,202604
+20260426,154404004,237,옛맛, 옛맛 튀밥 강정 70 g ,1000,4.7,109,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=154404004&recmYn=N,202604
+20260426,106285943,238,롯데, 롯데 키세스 밀크 31 g ,1000,4.8,41,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106285943&recmYn=N,202604
+20260426,994953531,239,LG생활건강, LG생활건강 이너뷰 히알루론산 더마스틱 12포 ,5000,4.8,167,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953531&recmYn=N,202604
+20260426,610910601,240,동국제약, 동국제약 마데카 리포좀 레티놀C 20포 ,5000,4.8,370,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910601&recmYn=N,202604
+20260426,104557136,241,오뚜기, 오뚜기 진라면 용기 순한맛 110 g ,1000,4.9,145,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104557136&recmYn=N,202604
+20260426,972080003,242,로얄, 로얄 건망고 45 g ,2000,4.5,161,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=972080003&recmYn=N,202604
+20260426,76224935,243,밀카, 밀카 초코 슈프림 30 g ,1000,4.7,85,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=76224935&recmYn=N,202604
+20260426,104529404,244,오뚜기, 오뚜기 3분 춘천 닭갈비 덮밥 소스 150 g ,1500,4.9,212,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104529404&recmYn=N,202604
+20260426,982725183,245,온실, 온실 와사비 칩 ,1000,4.7,200,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=982725183&recmYn=N,202604
+20260426,961794514,246,바프, 바프 카라멜 솔티드 아몬드 앤 프레첼 40 g ,1500,4.8,236,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=961794514&recmYn=N,202604
+20260426,802403401,247,쟈뎅, 쟈뎅 바리스타 싱글오리진 브라질 캡슐 커피 다크 10개입 ,5000,4.8,121,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=802403401&recmYn=N,202604
+20260426,699520508,248,미성, 미성 화이트 캐슬 초콜릿칩 버터 쿠키 ,1000,4.7,505,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=699520508&recmYn=N,202604
+20260426,491841524,249,유기농, 유기농 아름다운 보성녹차 1.1gx25개입 ,2000,4.7,272,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=491841524&recmYn=N,202604
+20260426,951817118,250,[한정수량, [한정수량 랜덤 스티커 포함]  락피도 티니핑 칼슘스틱 12포 ,5000,4.8,85,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=951817118&recmYn=N,202604
+20260426,938846639,251,이디야, 이디야 클래식 커피믹스 20개입 ,3000,4.6,224,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=938846639&recmYn=N,202604
+20260426,106288542,252,롯데, 롯데 핵짱셔요 콜라 50 g ,1000,4.7,29,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106288542&recmYn=N,202604
+20260426,106201360,253,롯데, 롯데 애니타임 밀크 92 g ,2000,4.9,58,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106201360&recmYn=N,202604
+20260426,913624078,254,오브맘," 오브맘 스트레스,쉼 30일분 ",5000,4.8,292,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913624078&recmYn=N,202604
+20260426,600651651,255,유한양행, 유한양행 프레쉬츄 생유산균 30정 30일분 ,5000,4.8,42,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651651&recmYn=N,202604
+20260426,121609957,256,하리보, 하리보 골든베어 사우어 80 g ,1500,4.8,145,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=121609957&recmYn=N,202604
+20260426,032627033,257,자연관, 자연관 스파이크컷 바나바잎＆카테킨 4병 ,5000,4.7,148,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032627033&recmYn=N,202604
+20260426,955960244,258,챠챠, 챠챠 해바라기씨 양념 맛 45 g ,1000,4.7,353,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=955960244&recmYn=N,202604
+20260426,491844112,259,보성제다, 보성제다 아름다운 둥글레차 14.4g (1.2gx12티백) ,1000,4.7,277,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=491844112&recmYn=N,202604
+20260426,478200699,260,감자알칩, 감자알칩 치즈 마요 맛 38 g ,1000,4.7,328,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=478200699&recmYn=N,202604
+20260426,274710519,261,헬로키티, 헬로키티 껌 27.5 g ,1000,4.7,206,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=274710519&recmYn=N,202604
+20260426,938846465,262,이디야, 이디야 비니스트 스페셜 에디션 1 g X 12개입 ,2000,4.6,111,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=938846465&recmYn=N,202604
+20260426,84197382,263,메가, 메가 수퍼 피카 줌 버블껌 캔디 20 g ,500,4.5,28,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=84197382&recmYn=N,202604
+20260426,600000143,264,대웅제약, 대웅제약 어린이 칼슘 마그네슘D 츄어블 60정 30일분 ,5000,4.7,181,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000143&recmYn=N,202604
+20260426,111194423,265,크라운, 크라운 카라멜 콘 땅콩 125 g ,2000,4.8,114,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=111194423&recmYn=N,202604
+20260426,104529330,266,오뚜기, 오뚜기 3분 하이라이스 소스 200 g ,1500,4.8,160,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104529330&recmYn=N,202604
+20260426,938846609,267,이디야, 이디야 스페셜 모카 블렌드 커피믹스 30개입 ,5000,4.8,137,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=938846609&recmYn=N,202604
+20260426,927141021,268,가위바위보, 가위바위보 초코볼 18 g ,1000,4.8,30,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=927141021&recmYn=N,202604
+20260426,299352571,269,브라우니, 브라우니 믹스 230 g ,3000,4.5,116,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=299352571&recmYn=N,202604
+20260426,155860026,270,움트리, 움트리 실장님 회 초장 300g ,2000,4.8,218,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=155860026&recmYn=N,202604
+20260426,104529030,271,오뚜기, 오뚜기 3분 카레 순한맛 200 g ,1500,4.9,111,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104529030&recmYn=N,202604
+20260426,002990203,272,미성, 미성 멜로 머쉬멜로우 ,1000,4.8,134,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=002990203&recmYn=N,202604
+20260426,980562353,273,사우어, 사우어 믹스 젤리 빈 50 g ,1000,4.7,120,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=980562353&recmYn=N,202604
+20260426,925733230,274,담터, 담터 레몬에이드 믹스 15 g X 10개입 ,2000,4.8,181,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925733230&recmYn=N,202604
+20260426,106201273,275,롯데, 롯데 화이트쿠키 빼빼로 37 g ,1500,4.9,46,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106201273&recmYn=N,202604
+20260426,015740573,276,벤토, 벤토 바베큐 앤 스파이시 12 g ,1000,4.8,172,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=015740573&recmYn=N,202604
+20260426,944502262,277,호올스, 호올스 자몽 향 캔디 2개입 ,1500,4.9,305,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=944502262&recmYn=N,202604
+20260426,951817121,278,[한정수량, [한정수량 랜덤 스티커 포함] 락피도 티니핑 쾌변스틱 12포 ,5000,4.8,123,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=951817121&recmYn=N,202604
+20260426,949753217,279,쏠라C, 쏠라C 레몬 맛 30개입 ,3000,4.9,322,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=949753217&recmYn=N,202604
+20260426,947020027,280,청해추억의빵쥐포(40, 청해추억의빵쥐포(40 g) ,2000,4.7,191,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=947020027&recmYn=N,202604
+20260426,921440109,281,행복한, 행복한 쇼콜라띠에 밀크초코 100 g ,2000,4.8,295,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921440109&recmYn=N,202604
+20260426,802403403,282,쟈뎅, 쟈뎅 바리스타 싱글오리진 브라질 캡슐 커피 디카페인 10개입 ,5000,4.7,126,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=802403403&recmYn=N,202604
+20260426,724020430,283,피시, 피시 스낵 스파이스맛 27g ,1000,4.7,235,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=724020430&recmYn=N,202604
+20260426,288897426,284,모리나가, 모리나가 하이츄 스윗 앤 사우어 90g ,2000,4.9,323,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=288897426&recmYn=N,202604
+20260426,955960247,285,챠챠, 챠챠 해바라기씨 고소한 맛 45 g ,1000,4.6,270,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=955960247&recmYn=N,202604
+20260426,443310128,286,고소한, 고소한 치즈봉 90 g ,1500,4.7,249,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=443310128&recmYn=N,202604
+20260426,106263760,287,[팔각], [팔각] 롯데 오리지널 빼빼로 184 g ,5000,4.8,169,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106263760&recmYn=N,202604
+20260426,980562147,288,사우어, 사우어 롤더벨트 딸기 40g ,1000,4.8,116,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=980562147&recmYn=N,202604
+20260426,430009152,289,록키마운틴, 록키마운틴 마쉬멜로우 화이트 150 g 레귤러 ,3000,4.9,25,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=430009152&recmYn=N,202604
+20260426,947020022,290,청해, 청해 신오찡어 소면 30 g ,2000,4.7,198,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=947020022&recmYn=N,202604
+20260426,289600065,291,월드컵, 월드컵 어포 24 g ,1000,4.8,171,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600065&recmYn=N,202604
+20260426,961794806,292,바프, 바프 군옥수수 맛 땅콩 ＆ 콘프라이즈 55g ,1000,4.7,261,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=961794806&recmYn=N,202604
+20260426,961794511,293,HBAF, HBAF 와사비맛 아몬드 40g ,1500,4.8,227,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=961794511&recmYn=N,202604
+20260426,935144292,294,자두, 자두 녹차 340 ml ,1000,4.9,149,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=935144292&recmYn=N,202604
+20260426,927502252,295,자일스톤, 자일스톤 레몬 향 20 g ,2000,4.6,233,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=927502252&recmYn=N,202604
+20260426,289600457,296,철판, 철판 꾸이킹 오리지널 22 g ,1000,4.8,230,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600457&recmYn=N,202604
+20260426,225902105,297,롯데, 롯데 졸음껌 오리지날 리필 70 g ,3000,4.8,37,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=225902105&recmYn=N,202604
+20260426,105200963,298,청정원, 청정원 발효 미원 50 g ,1500,4.8,207,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=105200963&recmYn=N,202604
+20260426,962380022,299,모리나가, 모리나가 하이츄 트로피컬 믹스 90g ,2000,4.9,245,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=962380022&recmYn=N,202604
+20260426,297531900,300,하리보, 하리보 해피 그레이프 100 g ,1500,4.9,169,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=297531900&recmYn=N,202604
+20260426,948699026,301,크래용, 크래용 신짱 라면 스낵 양념치킨 맛 90 g ,1000,4.7,293,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=948699026&recmYn=N,202604
+20260426,927502353,302,딸기, 딸기 샌드 웨이퍼 56 g ,3000,4.8,347,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=927502353&recmYn=N,202604
+20260426,926940084,303,다크, 다크 초코 청크 100 g ,2000,4.8,164,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940084&recmYn=N,202604
+20260426,924797561,304,틴인틴, 틴인틴 비스켓 200g ,3000,4.9,180,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=924797561&recmYn=N,202604
+20260426,918057101,305,한주, 한주 본 소금 1kg ,2000,4.8,209,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=918057101&recmYn=N,202604
+20260426,289600479,306,허니버터맛, 허니버터맛 쫀드기 84g ,1000,4.7,220,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600479&recmYn=N,202604
+20260426,286314178,307,올비텐, 올비텐 멀티비타민 츄어블 30정 ,3000,4.8,29,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314178&recmYn=N,202604
+20260426,032306212,308,종근당, 종근당 데일리와이즈 리스펙타 유산균 6포 6일분 ,5000,,0,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306212&recmYn=N,202604
+20260426,947020048,309,오징어, 오징어 숏다리 매운맛 25 g ,2000,4.6,67,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=947020048&recmYn=N,202604
+20260426,289600420,310,꼬마, 꼬마 꾸이킹 오리지널 25g ,1000,4.8,311,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600420&recmYn=N,202604
+20260426,104557010,311,오뚜기진라면순한맛작은컵6입, 오뚜기진라면순한맛작은컵6입 ,5000,4.9,119,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104557010&recmYn=N,202604
+20260426,610910727,312,동국제약, 동국제약 리포좀 마그마 스피드 30정 ,5000,4.8,140,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910727&recmYn=N,202604
+20260426,605276075,313,망고, 망고 크림 크래커 ,1000,4.6,367,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=605276075&recmYn=N,202604
+20260426,000011451,314,그린, 그린 자이언트 니블렛 스위트콘 340 g ,2000,4.8,250,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=000011451&recmYn=N,202604
+20260426,952708078,315,우도, 우도 땅콩 카라멜 50 g ,1000,4.7,215,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=952708078&recmYn=N,202604
+20260426,289600482,316,꼬마, 꼬마 꾸이킹 오리지널 62g ,2000,4.8,300,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600482&recmYn=N,202604
+20260426,154401067,317,옛날, 옛날 돌사탕 50g ,1000,4.8,174,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=154401067&recmYn=N,202604
+20260426,027945156,318,바프, 바프 군옥수수 맛 아몬드＆땅콩 35 g ,1000,4.8,122,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=027945156&recmYn=N,202604
+20260426,994953533,319,LG생활건강, LG생활건강 이너뷰 루테인 지아잔틴 30캡슐 ,5000,4.8,214,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953533&recmYn=N,202604
+20260426,980562148,320,사우어, 사우어 롤더벨트 라즈베리 40g ,1000,4.5,81,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=980562148&recmYn=N,202604
+20260426,947020023,321,청해, 청해 버터구이 쥐포채 30 g ,2000,4.8,120,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=947020023&recmYn=N,202604
+20260426,921440129,322,행복한, 행복한 쇼콜라띠에 다크초코 100 g ,2000,4.7,236,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921440129&recmYn=N,202604
+20260426,917054020,323,테일러팜스, 테일러팜스 말린살구 ,2000,4.6,138,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=917054020&recmYn=N,202604
+20260426,497330900,324,엠앤엠즈, 엠앤엠즈 밀크 펀 사이즈 54 g ,2000,4.8,240,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=497330900&recmYn=N,202604
+20260426,961794516,325,바프, 바프 마늘빵 아몬드 40 g ,1500,4.8,190,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=961794516&recmYn=N,202604
+20260426,935144096,326,레몬, 레몬 녹차 340 ml ,1000,4.9,190,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=935144096&recmYn=N,202604
+20260426,643701702,327,오키오, 오키오 구미 100 g 그레이프 ,1500,4.9,104,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=643701702&recmYn=N,202604
+20260426,225903050,328,롯데, 롯데 드림 카카오 볼 56% 48 g ,2000,4.8,40,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=225903050&recmYn=N,202604
+20260426,104529402,329,오뚜기, 오뚜기 3분 낙지덮밥 소스 150 g ,1500,4.7,181,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104529402&recmYn=N,202604
+20260426,600440713,330,미에로, 미에로 화이바 350ml ,1500,4.8,157,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600440713&recmYn=N,202604
+20260426,112300211,331,칸타타, 칸타타 스페셜티 다크 블렌드 드립백 10 g X 9개입 ,5000,4.9,40,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=112300211&recmYn=N,202604
+20260426,994953532,332,LG생활건강, LG생활건강 이너뷰 비눌린 워터믹스 10포 ,5000,4.5,62,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953532&recmYn=N,202604
+20260426,935817111,333,출출할땐, 출출할땐 출추리 훈제맛(25 g) ,1500,4.7,211,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=935817111&recmYn=N,202604
+20260426,245610800,334,참기름, 참기름 찍어 먹는 쇠고기 육포 20 g ,2000,4.8,86,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=245610800&recmYn=N,202604
+20260426,949753218,335,쏠라C, 쏠라C 블루베리 맛 30개입 ,3000,4.9,170,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=949753218&recmYn=N,202604
+20260426,944502261,336,호올스, 호올스 아이스블루 캔디 2개입 ,1500,4.8,222,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=944502261&recmYn=N,202604
+20260426,921556569,337,별콘, 별콘 딸기맛 80 g ,1000,4.5,28,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921556569&recmYn=N,202604
+20260426,84197399,338,메가, 메가 줌 페인터 캔디 20 g ,500,4.5,35,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=84197399&recmYn=N,202604
+20260426,112300213,339,칸타타, 칸타타 싱글 오리진 에티오피아 드립백 10 g X 9개입 ,5000,4.8,42,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=112300213&recmYn=N,202604
+20260426,111800103,340,롯데, 롯데 카놀라유 500 ml ,3000,4.7,37,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=111800103&recmYn=N,202604
+20260426,104557068,341,오뚜기, 오뚜기 열라면 작은컵 6개입 ,5000,4.9,183,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104557068&recmYn=N,202604
+20260426,925733522,342,담터, 담터 포켓몬 콤부차 납작복숭아 5 g X 5개입 ,2000,4.8,106,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925733522&recmYn=N,202604
+20260426,302902013,343,트러플, 트러플 초콜릿 티라미수 향 80 g ,1500,4.9,17,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=302902013&recmYn=N,202604
+20260426,126800543,344,동아, 동아 죽염사탕 90 g ,1000,4.8,143,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=126800543&recmYn=N,202604
+20260426,938846608,345,이디야, 이디야 스페셜 골드 블렌드 리치 크레마 커피믹스 30개입 ,5000,4.7,106,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=938846608&recmYn=N,202604
+20260426,926940050,346,뉴트리크라프트, 뉴트리크라프트 스포츠 포도당 캔디 70 g ,2000,4.8,148,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940050&recmYn=N,202604
+20260426,643701701,347,오키오, 오키오 구미 100 g 복숭아 ,1500,4.9,75,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=643701701&recmYn=N,202604
+20260426,015740105,348,벤토, 벤토 스위트＆스파이시 12 g ,1000,4.8,164,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=015740105&recmYn=N,202604
+20260426,600651647,349,유한양행, 유한양행 프리바이오틱스 스틱 40포 20일분 ,5000,4.8,34,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651647&recmYn=N,202604
+20260426,283670430,350,롯데, 롯데 허쉬 너겟 쿠앤크 28 g ,1000,4.9,28,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=283670430&recmYn=N,202604
+20260426,107501755,351,사조, 사조 불닭 마요 참치 100 g ,2000,4.8,12,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=107501755&recmYn=N,202604
+20260426,106288540,352,롯데, 롯데 핵짱셔요 후르츠 51 g ,1000,4.5,34,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106288540&recmYn=N,202604
+20260426,104551251,353,오뚜기, 오뚜기 컵누들 마라탕 맛 ,1500,4.8,135,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104551251&recmYn=N,202604
+20260426,952708061,354,믹스, 믹스 커피 캐러멜 50 g ,1000,4.6,217,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=952708061&recmYn=N,202604
+20260426,925733520,355,담터, 담터 포켓몬 콤부차 5개입 망고 리치 ,2000,4.8,153,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925733520&recmYn=N,202604
+20260426,643701699,356,오키오, 오키오 구미 100 g 망고 ,1500,4.9,68,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=643701699&recmYn=N,202604
+20260426,599960104,357,복음자리짜먹는딸기잼, 복음자리짜먹는딸기잼 ,2000,4.8,158,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=599960104&recmYn=N,202604
+20260426,289600280,358,빼빼어포, 빼빼어포 매운맛 24 g ,1000,4.9,204,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600280&recmYn=N,202604
+20260426,126800536,359,동아, 동아 박하향 캔디 130g ,1000,4.8,184,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=126800536&recmYn=N,202604
+20260426,102495501,360,청정원, 청정원 얼큰 쌀국수 92 g ,2000,4.8,174,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=102495501&recmYn=N,202604
+20260426,926940911,361,데코펜, 데코펜 다크 20g ,1000,4.8,226,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940911&recmYn=N,202604
+20260426,925733229,362,담터, 담터 자몽 허니 블랙티 78g (13gx6개입) ,2000,4.7,223,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925733229&recmYn=N,202604
+20260426,712266872,363,코코넛, 코코넛 큐브 젤리 50 g ,1000,4.0,24,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=712266872&recmYn=N,202604
+20260426,289600527,364,불닭, 불닭 쫀드기 72 g ,1000,4.6,187,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600527&recmYn=N,202604
+20260426,994953529,365,LG생활건강, LG생활건강 이너뷰 진한 레드 석류 콜라겐 7포 ,5000,4.7,88,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953529&recmYn=N,202604
+20260426,947020003,366,청해, 청해 타코야끼맛 오징어 30g ,2000,4.7,141,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=947020003&recmYn=N,202604
+20260426,591591420,367,종근당건강, 종근당건강 브이퍼센트 멀티비타민 콜라겐샷 5포 ,5000,4.9,139,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591591420&recmYn=N,202604
+20260426,245610506,368,치즈, 치즈 앤 미트 스키니 육포 30 g ,2000,4.8,126,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=245610506&recmYn=N,202604
+20260426,944992028,369,달고나, 달고나 다크 초콜릿 25 g ,1500,4.7,83,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=944992028&recmYn=N,202604
+20260426,925667540,370,허쉬, 허쉬 초콜릿 칩 쿠키 72 g ,2000,4.8,180,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925667540&recmYn=N,202604
+20260426,956842650,371,0칼로리, 0칼로리 설탕 대신 알룰로스 450 g ,5000,4.8,132,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=956842650&recmYn=N,202604
+20260426,952708076,372,안동, 안동 사과 카라멜 50 g ,1000,4.6,353,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=952708076&recmYn=N,202604
+20260426,925733212,373,담터, 담터 호두 아몬드 율무차 6개입 ,2000,4.9,284,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925733212&recmYn=N,202604
+20260426,136080350,374,부르봉, 부르봉 페투치니 젤리 50 g 콜라 향 ,2000,4.7,62,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=136080350&recmYn=N,202604
+20260426,106233177,375,롯데, 롯데 목캔디 믹스베리 38 g ,1000,4.7,36,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106233177&recmYn=N,202604
+20260426,700048254,376,트롤리, 트롤리 사우어 구미 캔디 42g ,1000,4.7,104,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=700048254&recmYn=N,202604
+20260426,126800547,377,동아, 동아 크루드 캔디 90 g ,1000,4.9,167,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=126800547&recmYn=N,202604
+20260426,111533853,378,서울우유, 서울우유 바나나우유 맛 젤리 45 g ,1000,4.5,231,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=111533853&recmYn=N,202604
+20260426,051299808,379,트롤리, 트롤리 미니 버거 모양 젤리 50 g ,2000,4.9,94,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=051299808&recmYn=N,202604
+20260426,927502352,380,요거트, 요거트 샌드 웨이퍼 56 g ,3000,4.7,303,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=927502352&recmYn=N,202604
+20260426,913624079,381,오브맘, 오브맘 피부건강＆면역 톡톡! 15일분 ,5000,4.8,198,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913624079&recmYn=N,202604
+20260426,106233167,382,롯데, 롯데 목캔디 허브민트 38 g ,1000,4.8,22,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106233167&recmYn=N,202604
+20260426,976195479,383,스키니랩, 스키니랩 프레스팝 멀티비타민 사과 맛 4개입 ,5000,4.7,164,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=976195479&recmYn=N,202604
+20260426,961794849,384,바프, 바프 군옥수수 맛 아몬드 110 g ,3000,4.9,121,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=961794849&recmYn=N,202604
+20260426,952708059,385,밀크, 밀크 캐러멜 50 g ,1000,4.8,325,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=952708059&recmYn=N,202604
+20260426,947020005,386,청해, 청해 순살코기 쥐포구이채 30 g ,2000,4.8,136,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=947020005&recmYn=N,202604
+20260426,908401354,387,복숭아, 복숭아 녹차 340 ml ,1000,4.8,214,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=908401354&recmYn=N,202604
+20260426,478200700,388,감자알칩, 감자알칩 군옥수수 맛 70 g ,1500,4.7,146,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=478200700&recmYn=N,202604
+20260426,980562134,389,자이언트, 자이언트 딸기 모양 머쉬멜로우 70g ,2000,4.7,52,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=980562134&recmYn=N,202604
+20260426,925733228,390,담터, 담터 복숭아 허니 블랙티 13 g X 6개입 ,2000,4.8,92,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925733228&recmYn=N,202604
+20260426,599960150,391,복음자리짜먹는사과버터잼, 복음자리짜먹는사과버터잼 ,2000,4.8,123,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=599960150&recmYn=N,202604
+20260426,155890327,392,움트리, 움트리 크리미 생와사비 100 g ,3000,4.7,275,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=155890327&recmYn=N,202604
+20260426,926940912,393,데코펜, 데코펜 화이트 20g  ,1000,4.8,231,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940912&recmYn=N,202604
+20260426,917054520,394,테일러팜스, 테일러팜스 말린 데이츠 50 g ,1500,4.6,195,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=917054520&recmYn=N,202604
+20260426,600651655,395,유한양행, 유한양행 운동부스터 생유산균 스틱 5포 5일분 ,5000,4.6,10,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651655&recmYn=N,202604
+20260426,112360212,396,롯데, 롯데 로스팜 200 g ,3000,,0,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=112360212&recmYn=N,202604
+20260426,109434260,397,태양의마태차, 태양의마태차 500 ml ,1000,4.6,75,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=109434260&recmYn=N,202604
+20260426,913624076,398,오브맘, 오브맘 눈건강 아이라이트 30일분 ,5000,4.7,144,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913624076&recmYn=N,202604
+20260426,802403080,399,쟈뎅, 쟈뎅 청보리차(500 ml) ,1000,4.7,106,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=802403080&recmYn=N,202604
+20260426,168637258,400,하리보, 하리보 메가룰렛 45g ,1000,4.7,71,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=168637258&recmYn=N,202604
+20260426,155890326,401,움트리, 움트리 마라 소스 120 g ,3000,4.8,404,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=155890326&recmYn=N,202604
+20260426,104537009,402,오뚜기, 오뚜기 옛날 사리 당면 100 g ,2000,4.7,48,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104537009&recmYn=N,202604
+20260426,980562354,403,후르츠, 후르츠 믹스 젤리 빈 50 g ,1000,4.8,62,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=980562354&recmYn=N,202604
+20260426,927502251,404,자일스톤, 자일스톤 민트 향 20 g ,2000,4.7,144,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=927502251&recmYn=N,202604
+20260426,926940093,405,포파칩, 포파칩 솔트맛 ,2000,4.3,41,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940093&recmYn=N,202604
+20260426,925733519,406,담터, 담터 포켓몬 콤부차 5개입 라임 ,2000,4.8,160,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925733519&recmYn=N,202604
+20260426,909039909,407,꽃, 꽃 머랭쿠키 25 g ,2000,4.7,111,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=909039909&recmYn=N,202604
+20260426,591580891,408,종근당건강, 종근당건강 락토핏 간케어 20포 ,5000,4.8,145,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580891&recmYn=N,202604
+20260426,106286375,409,롯데, 롯데 복숭아 캔디 153 g ,2000,4.8,31,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=106286375&recmYn=N,202604
+20260426,983750005,410,마카롱, 마카롱 닮은 슈가 롤리 솜사탕 12 g ,2000,4.8,75,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=983750005&recmYn=N,202604
+20260426,926940913,411,데코펜, 데코펜 핑크 ,1000,4.8,166,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940913&recmYn=N,202604
+20260426,497330983,412,스키틀즈, 스키틀즈 사워 펀 사이즈 60 g ,2000,4.9,97,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=497330983&recmYn=N,202604
+20260426,197206719,413,야미, 야미 바닐라 향 비스킷 160 g ,1000,4.7,198,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=197206719&recmYn=N,202604
+20260426,109408260,414,코카콜라, 코카콜라 제로 500 ml ,2000,4.8,113,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=109408260&recmYn=N,202604
+20260426,982725078,415,피니, 피니 피지 웜 젤리 100 g ,1500,4.7,136,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=982725078&recmYn=N,202604
+20260426,921556567,416,플레이, 플레이 시애니멀(56 g) ,1000,4.8,144,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921556567&recmYn=N,202604
+20260426,491843512,417,유기농, 유기농 아름다운 보성 현미 녹차 12개입 ,1000,4.8,90,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=491843512&recmYn=N,202604
+20260426,283672623,418,롯데, 롯데 허쉬 스페셜 크리에이션 초코티라미수 38 g ,1500,4.7,48,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=283672623&recmYn=N,202604
+20260426,643701700,419,오키오, 오키오 구미 100 g 스트로베리 ,1500,4.8,48,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=643701700&recmYn=N,202604
+20260426,112300212,420,칸타타, 칸타타 스페셜티 시트러스 블렌드 드립백 10 g X 9개입 ,5000,4.7,23,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=112300212&recmYn=N,202604
+20260426,109498420,421,씨그램, 씨그램 플레인 350 ml ,1000,4.7,24,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=109498420&recmYn=N,202604
+20260426,935144269,422,애플망고, 애플망고 340 ml ,1000,4.8,190,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=935144269&recmYn=N,202604
+20260426,283672625,423,롯데, 롯데 허쉬 스페셜 크리에이션 스트로베리 38 g ,1500,4.2,37,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=283672625&recmYn=N,202604
+20260426,283670426,424,롯데, 롯데 허쉬 너겟 밀크 28 g ,1000,4.9,46,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=283670426&recmYn=N,202604
+20260426,976195494,425,스키니랩, 스키니랩 프레스팝 멀티비타민 포도 맛 4개입 ,5000,4.6,152,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=976195494&recmYn=N,202604
+20260426,967852191,426,트롤리, 트롤리 피자 모양 젤리 48 g ,2000,4.8,62,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=967852191&recmYn=N,202604
+20260426,917054019,427,테일러팜스, 테일러팜스 말린블랙체리 ,2000,4.5,113,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=917054019&recmYn=N,202604
+20260426,712266873,428,파인애플, 파인애플 큐브 젤리 50 g ,1000,4.6,11,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=712266873&recmYn=N,202604
+20260426,611982832,429,안국약품, 안국약품 토비콤 눈피로엔 아이포커스 미니 20캡슐 ,5000,4.9,74,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=611982832&recmYn=N,202604
+20260426,289600281,430,통통, 통통 어포 오리지널 24g ,1000,4.8,177,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600281&recmYn=N,202604
+20260426,952708060,431,인절미, 인절미 캐러멜 50 g ,1000,4.7,224,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=952708060&recmYn=N,202604
+20260426,940695893,432,미루, 미루 러브 틴케이스 18 g ,1000,4.2,58,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=940695893&recmYn=N,202604
+20260426,921556531,433,왕별사탕, 왕별사탕 30g ,1000,4.6,57,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921556531&recmYn=N,202604
+20260426,245600011,434,일품, 일품 등심 육포 40 g ,3000,4.9,38,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=245600011&recmYn=N,202604
+20260426,204942103,435,카스텔크림, 카스텔크림 모로 오렌지 캔디 50 g ,2000,4.8,61,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=204942103&recmYn=N,202604
+20260426,902596198,436,꿀, 꿀 캐모마일 티 1 g X 7개입 ,2000,4.5,41,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=902596198&recmYn=N,202604
+20260426,655639593,437,트롤리, 트롤리 키스 100 g ,2000,4.7,121,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=655639593&recmYn=N,202604
+20260426,289600483,438,꼬마, 꼬마 꾸이킹 매운맛 62g ,2000,4.7,120,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600483&recmYn=N,202604
+20260426,113300830,439,머거본허니로스티드땅콩(130, 머거본허니로스티드땅콩(130 g) ,3000,4.9,39,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=113300830&recmYn=N,202604
+20260426,944992009,440,허팝, 허팝 팝핑 달고나 23 g ,1000,4.8,33,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=944992009&recmYn=N,202604
+20260426,939986472,441,올비텐, 올비텐 비타팡팡 30포 ,5000,5.0,11,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=939986472&recmYn=N,202604
+20260426,924877019,442,미루, 미루 초코포키 20 g ,1500,4.8,39,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=924877019&recmYn=N,202604
+20260426,259014009,443,펄몰, 펄몰 레몬 맛 캔디 20 g ,2000,4.5,89,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=259014009&recmYn=N,202604
+20260426,015740206,444,벤토, 벤토 앵그리 앤 스파이시 12 g ,1000,4.7,178,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=015740206&recmYn=N,202604
+20260426,944992002,445,우주, 우주 수제 달고나 20g  ,1000,4.9,134,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=944992002&recmYn=N,202604
+20260426,926940083,446,다크, 다크 초코 칩 100 g ,2000,4.7,111,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940083&recmYn=N,202604
+20260426,924797587,447,초코, 초코 틴인틴 200 g ,3000,4.8,220,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=924797587&recmYn=N,202604
+20260426,921556533,448,그로비팝, 그로비팝 미니 캔디 40g  ,1000,4.7,100,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921556533&recmYn=N,202604
+20260426,850617048,449,오트밀, 오트밀 미니 바이트 250 g ,3000,4.8,162,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=850617048&recmYn=N,202604
+20260426,283672619,450,롯데, 롯데 허쉬 라지바 90 g 쿠앤크 ,3000,4.8,26,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=283672619&recmYn=N,202604
+20260426,126800008,451,동아, 동아 흑사탕 100 g ,1000,4.8,170,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=126800008&recmYn=N,202604
+20260426,109456260,452,조지아, 조지아 크래프트 콜드브루 블랙 470 ml ,2000,4.6,16,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=109456260&recmYn=N,202604
+20260426,104550997,453,오뚜기, 오뚜기 양파 절임 소스 330 g ,3000,4.8,64,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104550997&recmYn=N,202604
+20260426,034345002,454,올비텐, 올비텐 유산균 30포 ,5000,4.8,21,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=034345002&recmYn=N,202604
+20260426,994953530,455,LG생활건강, LG생활건강 이너뷰 레티놀 리포좀C 12포 ,5000,4.8,67,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953530&recmYn=N,202604
+20260426,982725082,456,피니, 피니 라즈베리 앤 블랙베리 향 85 g ,1500,4.3,64,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=982725082&recmYn=N,202604
+20260426,980562124,457,젤리필링, 젤리필링 머쉬멜로우 사과향 90g ,2000,4.4,41,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=980562124&recmYn=N,202604
+20260426,926940040,458,안녕, 안녕 자두야 솜사탕 10 g ,1000,4.8,74,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940040&recmYn=N,202604
+20260426,913188661,459,땅콩, 땅콩 캬라멜 70g ,1000,4.6,164,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913188661&recmYn=N,202604
+20260426,497330982,460,스키틀즈, 스키틀즈 오리지날 펀 사이즈 60 g ,2000,4.9,120,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=497330982&recmYn=N,202604
+20260426,443310127,461,고소한참깨봉, 고소한참깨봉 ,1500,4.7,137,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=443310127&recmYn=N,202604
+20260426,289600526,462,불닭, 불닭 어포 20g ,1000,4.5,76,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600526&recmYn=N,202604
+20260426,283672627,463,롯데, 롯데 허쉬 스페셜 크리에이션 초코치즈 38 g ,1500,4.2,33,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=283672627&recmYn=N,202604
+20260426,283672617,464,롯데, 롯데 허쉬 라지바 90 g 밀크 ,3000,4.8,38,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=283672617&recmYn=N,202604
+20260426,121609637,465,하리보, 하리보 해피 콜라향 사우어 80g ,1500,4.8,130,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=121609637&recmYn=N,202604
+20260426,002788012,466,피스터블, 피스터블 밀크초콜릿 60 g ,5000,4.7,178,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=002788012&recmYn=N,202604
+20260426,982725080,467,피니, 피니 스몰 콜라병 모양 젤리 100 g ,1500,4.9,47,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=982725080&recmYn=N,202604
+20260426,909039910,468,눈꽃, 눈꽃 머랭쿠키 25 g ,2000,4.6,83,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=909039910&recmYn=N,202604
+20260426,655639743,469,트롤리, 트롤리 블루 옥토퍼스 100 g ,2000,,0,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=655639743&recmYn=N,202604
+20260426,317839840,470,사우어, 사우어 플라이 라즈베리 향 젤리 80 g ,2000,4.2,43,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=317839840&recmYn=N,202604
+20260426,289600406,471,빼빼, 빼빼 어포 어채 22g ,1000,4.7,89,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600406&recmYn=N,202604
+20260426,109498920,472,씨그램, 씨그램 레몬 350 ml ,1000,4.8,41,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=109498920&recmYn=N,202604
+20260426,109441200,473,토레타, 토레타 500 ml ,1500,4.9,120,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=109441200&recmYn=N,202604
+20260426,949000069,474,피오디, 피오디 라임 200 ml ,1500,4.8,102,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=949000069&recmYn=N,202604
+20260426,926940059,475,DIY, DIY 초코 스틱 만들기 207 g ,5000,,0,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940059&recmYn=N,202604
+20260426,921556530,476,우주, 우주 별사탕 30 g ,1000,4.7,41,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=921556530&recmYn=N,202604
+20260426,126800539,477,동아, 동아 계피맛 캔디 100g ,1000,4.8,137,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=126800539&recmYn=N,202604
+20260426,982725108,478,허쉬, 허쉬 밀크 초콜릿 칩 80 g ,2000,4.7,87,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=982725108&recmYn=N,202604
+20260426,939534083,479,추억의, 추억의 달고나 캔디  ,1000,4.8,60,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=939534083&recmYn=N,202604
+20260426,925733214,480,담터, 담터 생강차 플러스 120g (15gx8개입) ,2000,4.6,110,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925733214&recmYn=N,202604
+20260426,611779143,481,로얄젤리, 로얄젤리 멀티비타민 캔디 30 g ,1000,4.8,13,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=611779143&recmYn=N,202604
+20260426,317839044,482,스위트, 스위트 케이크 모양 젤리 66 g ,2000,4.7,23,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=317839044&recmYn=N,202604
+20260426,317839036,483,스트로베리즈, 스트로베리즈 위드 크림 향 젤리 75 g ,2000,4.7,22,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=317839036&recmYn=N,202604
+20260426,317836740,484,롤라, 롤라 벨타 딸기 향 20 g ,500,4.7,76,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=317836740&recmYn=N,202604
+20260426,121609959,485,하리보, 하리보 프리마베라 80 g ,1500,4.7,87,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=121609959&recmYn=N,202604
+20260426,104569171,486,오뚜기, 오뚜기 제주식 멜젓 소스 325 g ,5000,4.8,34,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=104569171&recmYn=N,202604
+20260426,925667513,487,허쉬오리지날핫초코, 허쉬오리지날핫초코 ,5000,4.8,127,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=925667513&recmYn=N,202604
+20260426,621089812,488,까먹는, 까먹는 젤리 100 g 혼합 맛 ,2000,4.5,55,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=621089812&recmYn=N,202604
+20260426,317839431,489,파이어, 파이어 데블 젤리 80 g ,2000,,0,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=317839431&recmYn=N,202604
+20260426,245600012,490,청양고추, 청양고추 쇠고기 육포 33 g ,3000,4.7,39,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=245600012&recmYn=N,202604
+20260426,012600637,491,로투스, 로투스 비스코프 샌드 바닐라 150 g ,3000,4.7,252,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=012600637&recmYn=N,202604
+20260426,967852084,492,트롤리, 트롤리 상어 모양 젤리 100 g ,2000,4.7,49,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=967852084&recmYn=N,202604
+20260426,900464370,493,스틱, 스틱 젤리 청포도 맛 60 g ,1000,4.6,79,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=900464370&recmYn=N,202604
+20260426,621089810,494,까먹는, 까먹는 젤리 100 g 복숭아 맛 ,2000,4.6,83,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=621089810&recmYn=N,202604
+20260426,289600282,495,통통, 통통 어포 매운맛 24g ,1000,4.8,61,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=289600282&recmYn=N,202604
+20260426,283672621,496,롯데, 롯데 허쉬 라지바 90 g 아몬드 ,3000,4.8,32,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=283672621&recmYn=N,202604
+20260426,109451261,497,조지아, 조지아 크래프트 저칼로리 라떼 470 ml ,2000,4.6,49,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=109451261&recmYn=N,202604
+20260426,980562470,498,별, 별 모양 머쉬멜로우 100 g ,2000,4.7,12,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=980562470&recmYn=N,202604
+20260426,926940934,499,초코픽셀, 초코픽셀 동물농장 100g ,5000,4.9,22,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940934&recmYn=N,202604
+20260426,926940041,500,안녕, 안녕 자두야 미니 벨 초콜릿 80 g ,2000,4.9,11,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=926940041&recmYn=N,202604
+20260426,600200563,501,광동, 광동 옥수수수염차 340ml ,1000,4.9,21,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600200563&recmYn=N,202604
+20260426,126800550,502,동아, 동아 허브 캔디 90g ,1000,4.9,118,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=126800550&recmYn=N,202604
+20260426,109477210,503,미닛메이드, 미닛메이드 쿠우 포도 300 ml ,1000,4.7,34,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=109477210&recmYn=N,202604
+20260426,109461260,504,태양의, 태양의 식후비법 W차 500 ml ,1500,4.7,29,https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=109461260&recmYn=N,202604

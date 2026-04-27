@@ -45,15 +45,15 @@ HTML_FILE_NAMES = [
     "05_daiso (1).html",
     "05_daiso (2).html",
     # 트렌드 카드 (급상승 / 급하락)
-    "01_naver_hot.html",
+    "01_naver_cool.html",
     "01_naver_down.html",
-    "02_coupang_hot.html",
+    "02_coupang_cool.html",
     "02_coupang_down.html",
-    "03_oliveyoung_hot.html",
+    "03_oliveyoung_cool.html",
     "03_oliveyoung_down.html",
-    "04_kakao_hot.html",
+    "04_kakao_cool.html",
     "04_kakao_down.html",
-    "05_daiso_hot.html",
+    "05_daiso_cool.html",
     "05_daiso_down.html",
 ]
 

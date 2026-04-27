@@ -366,6 +366,42 @@ run_channel(
 2. **메인 문서** — 공통 셀렉터 + `extra_selectors` (JS click으로 오버레이 우회)
 3. **iframe** — 페이지 내 모든 `<iframe>`에 진입 후 셀렉터 시도, 완료 후 `default_content` 복귀
 
+### 카카오 이미지 크롤링 (`crawling/channels/kakao.py`)
+
+#### 이미지 URL 구조
+
+카카오 채널의 이미지 URL은 두 가지 패턴이 존재한다.
+
+| 패턴 | URL 예시 | 설명 |
+|---|---|---|
+| CDN URL (정상) | `https://img1.kakaocdn.net/thumb/C175x175@2x.fwebp.q82/?fname=https%3A%2F%2Fst.kakaocdn.net%2F...{파일}.jpg` | CDN이 원본(jpg/png)을 webp로 변환하여 서빙. URL path에 확장자 없어 `.jpg`로 저장됨 (정상 동작) |
+| Fallback URL (비정상) | `https://st.kakaocdn.net/commerce_ui/static/common_module/default_fallback_thumbnail.png` | 974 bytes 크기의 placeholder 이미지. lazy loading 미로드 시 발생 |
+
+점진적 재스크롤로 실제 CDN URL이 로드되므로 정상 운영 시 발생하지 않는다. 만약 발생하면 `kakao_pre_actions`의 스크롤 대기 시간을 늘릴 것.
+
+#### 카카오 img 태그 구조
+
+카카오 제품 카드의 실제 img 태그: `<img cuimg="" uselazyloading="" alt="" class="img_thumb" src="CDN URL">`
+`uselazyloading` 속성이 카카오 자체 JS lazy loading을 트리거. `data-src` 등 별도 속성 없이 `src` 자체가 lazy loading 대상.
+
+#### `get_img_url()` 탐색 로직
+
+카드 내 이미지를 **셀렉터 → 속성** 2단계로 탐색한다.
+
+1. **셀렉터 순서**: `.inner_thumb img` → `.inner_thumb` → `img` (첫 매칭에서 중단)
+2. **속성 우선순위**: `data-src` > `data-original` > `data-lazy-src` > `src`
+
+`src`에 fallback이 들어있을 수 있으므로 lazy loading 속성을 우선한다.
+
+#### lazy loading 처리 순서 (`kakao_pre_actions`)
+
+순서 변경 시 수집 수량이 500개 → 20개로 급감하므로 반드시 아래 순서를 유지한다.
+
+1. **스크롤 먼저** — `window.scrollTo(0, scrollHeight)` 반복으로 무한스크롤 트리거 (500개 목표)
+2. **zoom 50% 적용** — `document.body.style.zoom='50%'`  
+   zoom을 스크롤보다 먼저 하면 레이아웃 재계산으로 무한스크롤이 충분히 트리거되지 않음
+3. **점진적 재스크롤** — zoom 적용으로 lazy loading이 리셋되므로 맨 위(0)부터 500px 간격, 0.3초 대기로 점진적 스크롤. 한 번에 점프하면 lazy loading 옵저버가 트리거되지 않음
+
 ---
 
 ## 새 채널 추가 시 필수 체크리스트

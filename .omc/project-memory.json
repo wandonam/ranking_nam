@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1776824639286,
+  "lastScanned": 1777248612151,
   "projectRoot": "H:\\내 드라이브\\페르소나\\01_RANKING_NAM",
   "techStack": {
     "languages": [
@@ -45,7 +45,7 @@
       "path": "crawling",
       "purpose": null,
       "fileCount": 4,
-      "lastAccessed": 1776824639219,
+      "lastAccessed": 1777248612003,
       "keyFiles": [
         "requirements.txt",
         "main.py",
@@ -56,8 +56,8 @@
     "generate": {
       "path": "generate",
       "purpose": null,
-      "fileCount": 7,
-      "lastAccessed": 1776824639221,
+      "fileCount": 8,
+      "lastAccessed": 1777248612007,
       "keyFiles": [
         "index.html",
         "requirements.txt",
@@ -70,21 +70,21 @@
       "path": "data",
       "purpose": "Data files",
       "fileCount": 0,
-      "lastAccessed": 1776824639224,
+      "lastAccessed": 1777248612044,
       "keyFiles": []
     },
     "driver": {
       "path": "driver",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1776824639226,
+      "lastAccessed": 1777248612058,
       "keyFiles": []
     },
     "monthly": {
       "path": "monthly",
       "purpose": null,
       "fileCount": 7,
-      "lastAccessed": 1776824639229,
+      "lastAccessed": 1777248612063,
       "keyFiles": [
         "__init__.py",
         "aggregate.py",
@@ -97,7 +97,7 @@
       "path": "__pycache__",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1776824639231,
+      "lastAccessed": 1777248612066,
       "keyFiles": [
         "run_monthly.cpython-312.pyc"
       ]
@@ -105,69 +105,39 @@
   },
   "hotPaths": [
     {
-      "path": "generate\\generate_html_weekly_trend.py",
-      "accessCount": 41,
-      "lastAccessed": 1776842419967,
+      "path": "crawling\\channels\\kakao.py",
+      "accessCount": 11,
+      "lastAccessed": 1777252158404,
       "type": "file"
     },
     {
       "path": "CLAUDE.md",
-      "accessCount": 10,
-      "lastAccessed": 1776839002150,
+      "accessCount": 11,
+      "lastAccessed": 1777252223563,
       "type": "file"
     },
     {
-      "path": "monthly\\crawl_reviews.py",
-      "accessCount": 6,
-      "lastAccessed": 1776841580582,
+      "path": "crawling\\core\\image.py",
+      "accessCount": 8,
+      "lastAccessed": 1777251802423,
       "type": "file"
     },
     {
-      "path": "monthly\\hero.py",
-      "accessCount": 4,
-      "lastAccessed": 1776839251842,
-      "type": "file"
-    },
-    {
-      "path": "generate\\generate_html_review_summary.py",
-      "accessCount": 4,
-      "lastAccessed": 1776843966489,
-      "type": "file"
-    },
-    {
-      "path": "generate\\generate_html_trend.py",
+      "path": "crawling\\core\\runner.py",
       "accessCount": 3,
-      "lastAccessed": 1776833142364,
+      "lastAccessed": 1777251108825,
       "type": "file"
     },
     {
-      "path": "C:\\Users\\user\\.claude\\plans\\binary-whistling-gizmo.md",
-      "accessCount": 3,
-      "lastAccessed": 1776843675807,
-      "type": "file"
-    },
-    {
-      "path": "data\\output\\2026_04_monthly\\weekly_trend_naver.html",
+      "path": "C:\\Users\\user\\.claude\\plans\\immutable-watching-quiche.md",
       "accessCount": 2,
-      "lastAccessed": 1776824698523,
+      "lastAccessed": 1777251527370,
       "type": "file"
     },
     {
-      "path": "generate",
-      "accessCount": 2,
-      "lastAccessed": 1776838975770,
-      "type": "directory"
-    },
-    {
-      "path": "",
+      "path": "data\\raw\\kakao\\20260426.csv",
       "accessCount": 1,
-      "lastAccessed": 1776842369686,
-      "type": "directory"
-    },
-    {
-      "path": "generate\\css\\style.css",
-      "accessCount": 1,
-      "lastAccessed": 1776842419525,
+      "lastAccessed": 1777249388913,
       "type": "file"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-21T00:28:27.521Z",
+  "updatedAt": "2026-04-27T01:13:37.142Z",
   "missions": [
     {
       "id": "session:149e0a6f-f62d-43f5-96b0-3f1208cb59f9:none",
@@ -278,6 +278,116 @@
           "agent": "general-purpose:ad1abc4",
           "detail": "completed",
           "sourceKey": "session-stop:ad1abc43df59594e0"
+        }
+      ]
+    },
+    {
+      "id": "session:d8bc6304-bca0-47f0-a5b1-38e61a9185e2:none",
+      "source": "session",
+      "name": "none",
+      "objective": "Session mission",
+      "createdAt": "2026-04-27T00:44:36.265Z",
+      "updatedAt": "2026-04-27T01:13:37.142Z",
+      "status": "done",
+      "workerCount": 4,
+      "taskCounts": {
+        "total": 4,
+        "pending": 0,
+        "blocked": 0,
+        "inProgress": 0,
+        "completed": 4,
+        "failed": 0
+      },
+      "agents": [
+        {
+          "name": "code-reviewer:a9f059c",
+          "role": "code-reviewer",
+          "ownership": "a9f059cae503017ad",
+          "status": "done",
+          "currentStep": null,
+          "latestUpdate": "completed",
+          "completedSummary": null,
+          "updatedAt": "2026-04-27T01:13:37.142Z"
+        },
+        {
+          "name": "writer:ac5c1c0",
+          "role": "writer",
+          "ownership": "ac5c1c0cb374a9076",
+          "status": "done",
+          "currentStep": null,
+          "latestUpdate": "completed",
+          "completedSummary": null,
+          "updatedAt": "2026-04-27T00:45:30.744Z"
+        },
+        {
+          "name": "code-reviewer:ac89416",
+          "role": "code-reviewer",
+          "ownership": "ac8941650a5d50d5e",
+          "status": "done",
+          "currentStep": null,
+          "latestUpdate": "completed",
+          "completedSummary": null,
+          "updatedAt": "2026-04-27T01:09:49.500Z"
+        },
+        {
+          "name": "writer:a38c58f",
+          "role": "writer",
+          "ownership": "a38c58f40acbe83c7",
+          "status": "done",
+          "currentStep": null,
+          "latestUpdate": "completed",
+          "completedSummary": null,
+          "updatedAt": "2026-04-27T01:10:01.776Z"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "session-stop:ae3ec6f22f73247ef:2026-04-27T01:06:33.689Z",
+          "at": "2026-04-27T01:06:33.689Z",
+          "kind": "completion",
+          "agent": "code-reviewer:a9f059c",
+          "detail": "completed",
+          "sourceKey": "session-stop:ae3ec6f22f73247ef"
+        },
+        {
+          "id": "session-start:ac8941650a5d50d5e:2026-04-27T01:09:13.314Z",
+          "at": "2026-04-27T01:09:13.314Z",
+          "kind": "update",
+          "agent": "code-reviewer:ac89416",
+          "detail": "started code-reviewer:ac89416",
+          "sourceKey": "session-start:ac8941650a5d50d5e"
+        },
+        {
+          "id": "session-start:a38c58f40acbe83c7:2026-04-27T01:09:26.668Z",
+          "at": "2026-04-27T01:09:26.668Z",
+          "kind": "update",
+          "agent": "writer:a38c58f",
+          "detail": "started writer:a38c58f",
+          "sourceKey": "session-start:a38c58f40acbe83c7"
+        },
+        {
+          "id": "session-stop:ac8941650a5d50d5e:2026-04-27T01:09:49.500Z",
+          "at": "2026-04-27T01:09:49.500Z",
+          "kind": "completion",
+          "agent": "code-reviewer:ac89416",
+          "detail": "completed",
+          "sourceKey": "session-stop:ac8941650a5d50d5e"
+        },
+        {
+          "id": "session-stop:a38c58f40acbe83c7:2026-04-27T01:10:01.776Z",
+          "at": "2026-04-27T01:10:01.776Z",
+          "kind": "completion",
+          "agent": "writer:a38c58f",
+          "detail": "completed",
+          "sourceKey": "session-stop:a38c58f40acbe83c7"
+        },
+        {
+          "id": "session-stop:a402736b23dbc12c4:2026-04-27T01:13:37.142Z",
+          "at": "2026-04-27T01:13:37.142Z",
+          "kind": "completion",
+          "agent": "code-reviewer:a9f059c",
+          "detail": "completed",
+          "sourceKey": "session-stop:a402736b23dbc12c4"
         }
       ]
     }

@@ -25,7 +25,7 @@ def parse_like(text):
 
 
 def kakao_pre_actions(driver):
-    
+    # 1) 무한스크롤로 전체 상품 로드
     last_height = driver.execute_script("return document.body.scrollHeight")
 
     while True:
@@ -37,22 +37,31 @@ def kakao_pre_actions(driver):
             break
         last_height = new_height
 
-    driver.execute_script("window.scrollTo(0, 0);")
-    time.sleep(2)
-
+    # 2) zoom 적용
     driver.execute_script("document.body.style.zoom='50%'")
     time.sleep(2)
+
+    # 3) zoom 후 점진적 재스크롤 — lazy loading 옵저버 트리거
+    driver.execute_script("window.scrollTo(0, 0);")
+    time.sleep(0.5)
+    scroll_height = driver.execute_script("return document.body.scrollHeight")
+    current = 0
+    while current < scroll_height:
+        current += 500
+        driver.execute_script(f"window.scrollTo(0, {current});")
+        time.sleep(0.3)
+    time.sleep(1)
 
 
 def find_card(item):
     for parent in item.parents:
-        if parent.select_one("gc-link") or parent.select_one(".img_thumb") or parent.select_one("img"):
+        if parent.select_one("gc-link") or parent.select_one(".inner_thumb") or parent.select_one("img"):
             return parent
     return item
 
 
 def get_img_url(card):
-    selectors = [".img_thumb img", ".img_thumb", "img"]
+    selectors = [".inner_thumb img", ".inner_thumb", "img"]
 
     for selector in selectors:
         img_tag = card.select_one(selector)
@@ -60,21 +69,21 @@ def get_img_url(card):
             continue
 
         img_url = (
-            img_tag.get("src")
-            or img_tag.get("data-src")
+            img_tag.get("data-src")
             or img_tag.get("data-original")
             or img_tag.get("data-lazy-src")
+            or img_tag.get("src")
         )
 
         if img_url:
-            return img_url  # urljoin 불필요 (save_images에서 처리 안 하므로 절대 URL 그대로 사용)
+            return img_url
 
     return None
 
 
 def parse_kakao(soup, today):
     data = []
-    ranking = soup.select(".info_prd")
+    ranking = soup.select(".link_prdunit")
 
     for item in ranking:
         card = find_card(item)
@@ -85,16 +94,15 @@ def parse_kakao(soup, today):
         if "product_ad" in tiara_code or "product_ad" in str(card):
             continue
 
-        a_tag = item.select_one("a.link_info")
-        href = a_tag["href"] if a_tag and a_tag.has_attr("href") else ""
+        href = item.get("href", "")
 
         match = re.search(r"/product/(\d+)", href)
         code = match.group(1) if match else None
 
-        brand_tag = item.select_one(".txt_brand")
-        product_tag = item.select_one(".txt_prdname")
-        price_tag = item.select_one(".num_price")
-        like_tag = item.select_one(".num_wsh")
+        brand_tag = card.select_one(".area_prdbrand")
+        product_tag = card.select_one(".txt_prdname")
+        price_tag = card.select_one(".num_price")
+        like_tag = card.select_one(".num_wish")
 
         if not code or not product_tag or not price_tag:
             continue
@@ -147,7 +155,7 @@ def run():
         url=URL,
         base_dir=CHANNEL_PATHS["kakao"],
         parse_func=parse_kakao,
-        wait_selector=".info_prd",
+        wait_selector=".link_prdunit",
         image_selector=None,
         pre_actions=kakao_pre_actions,
         post_process_func=post_process_kakao,
